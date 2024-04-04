@@ -15,30 +15,11 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         grid = transform.parent.GetComponent<Grid>();
+        InvokeRepeating("LeanMoveLeft", 2.0f, 2f);
     }
 
-    /// <summary>
-    /// Update is called every frame, if the MonoBehaviour is enabled.
-    /// </summary>
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.DownArrow)){
-            Move(new Vector2(transform.localPosition.x, transform.localPosition.y - 2));
-        }
-        if (Input.GetKeyDown(KeyCode.LeftArrow)){
-            Move(new Vector2(transform.localPosition.x - 2, transform.localPosition.y));
-        }
-        if (Input.GetKeyDown(KeyCode.RightArrow)){
-            Move(new Vector2(transform.localPosition.x + 2, transform.localPosition.y));
-        }
-        if (Input.GetKeyDown(KeyCode.UpArrow)){
-            Move(new Vector2(transform.localPosition.x, transform.localPosition.y + 2));
-        }
-    }
-
-    private void Move(Vector2 newPos){
-        Vector3Int cellPosition = grid.LocalToCell(newPos);
-        transform.localPosition = grid.GetCellCenterLocal(cellPosition);
-        Debug.Log("Move");
+    private void LeanMoveLeft(){
+        Vector3Int cellPosition = grid.LocalToCell(new Vector2(transform.localPosition.x - 2, transform.localPosition.y));
+        LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), .5f).setEaseOutExpo();
     }
 }
