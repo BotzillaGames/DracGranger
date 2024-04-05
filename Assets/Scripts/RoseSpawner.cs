@@ -1,28 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class RoseSpawner : MonoBehaviour
 {
 
+    private const int LIFESTART = 5;
+
     public GameObject rose;
 
     private Grid grid;
+
+    private List<Vector2> usedPoints = new List<Vector2>();
 
     // Start is called before the first frame update
     void Start()
     {
         grid = transform.parent.GetComponent<Grid>();
-        InvokeRepeating("SpawnRose", 1, 2);
+        for (int i = 0; i < LIFESTART; i++)
+        {
+            SpawnRose();
+        }
     }
 
     private void SpawnRose()
     {
-        Vector3 randomWorldPoint = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.1f, 0.9f), Random.Range(0.1f, 0.9f), 0));
-        randomWorldPoint.z = 0;
+        bool emptySpaceFound = false;
+        Vector3 randomWorldPoint = new Vector3();
+        while (!emptySpaceFound)
+        {
+            randomWorldPoint = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.25f, 0.85f), Random.Range(0.25f, 0.85f), 0));
+            randomWorldPoint.z = 0;
+            if (usedPoints.Count == 0) emptySpaceFound = true;
+            if (!emptySpaceFound)
+            {
+                emptySpaceFound = true;
+                Vector3Int cellPositionTemp = grid.LocalToCell(randomWorldPoint);
+                Vector2 snappedPosTemp = grid.GetCellCenterLocal(cellPositionTemp);
+                Vector2 randomWorldPointV2 = new Vector2(snappedPosTemp.x, snappedPosTemp.y);
+                foreach (Vector2 usedPoint in usedPoints)
+                {
+                    if (usedPoint == randomWorldPointV2)
+                        emptySpaceFound = false;
+                }
+            }
+        }
+
         GameObject newRose = Instantiate(rose);
         newRose.transform.parent = grid.transform;
         Vector3Int cellPosition = grid.LocalToCell(randomWorldPoint);
-        newRose.transform.localPosition = grid.GetCellCenterLocal(cellPosition);
+        Vector2 snappedPos = grid.GetCellCenterLocal(cellPosition);
+        newRose.transform.localPosition = snappedPos;
+        usedPoints.Add(snappedPos);
     }
 }
