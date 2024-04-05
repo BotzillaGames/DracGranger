@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3131506443983028801}
   - component: {fileID: 5740518136947610312}
   - component: {fileID: 5764849271807463879}
+  - component: {fileID: 2431041411796696039}
   m_Layer: 0
   m_Name: RosePrefab
   m_TagString: Untagged
@@ -192,6 +193,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.7931032, y: 2.7051964}
   m_EdgeRadius: 0
+--- !u!208 &2431041411796696039
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6491575916875858768}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.74, y: 0.8, z: 0.1}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7317729672290875418
 GameObject:
   m_ObjectHideFlags: 0
