@@ -6,7 +6,13 @@ public class EnemicController : MonoBehaviour
 {
     UnityEngine.AI.NavMeshAgent agent;
 
-    // Start is called before the first frame update
+    private Vector3 initialPosition;
+    private Vector3 endPosition;
+
+    private bool isDead = false;
+    
+    //Suposo que d'es d'aqui restarem les vides?
+
     private void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -14,9 +20,27 @@ public class EnemicController : MonoBehaviour
         agent.updateUpAxis = false;
     }
 
-    // Update is called once per frame
+
     private void Update()
     {
-        
+
     }
+
+    public void SetInitialPosition(Vector3 initPosition){
+        initialPosition = initPosition;
+    }
+
+    public void SetEndPosition(Vector3 finalPosition){
+        endPosition = finalPosition;
+    }
+
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Rosa"){
+            isDead = true;
+            Destroy(gameObject, 1.0f);
+        }
+    }
+
 }

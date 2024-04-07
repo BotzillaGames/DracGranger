@@ -9,7 +9,7 @@ public class Enemy : ScriptableObject
 {
      public GameObject prefab;
      public float velocity;
-     public int angle;
+     public int numLifes;
      public string enemyType;
-     private Vector3 initialPosition;
+
 }

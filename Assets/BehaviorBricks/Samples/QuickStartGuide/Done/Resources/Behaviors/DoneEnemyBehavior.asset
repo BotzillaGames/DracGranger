@@ -68,32 +68,32 @@ MonoBehaviour:
     id=\"0\" />\n          <PrioritySelectorNode id=\"1\" />\n          <RepeatDecorator
     id=\"6\" />\n        </data>\n      </_data>\n    </PrioritySelectorNode>\n   
     <ConditionEvalNode id=\"19\">\n      <_data>\n        <data breakpoint=\"0\"
-    selected=\"False\" position=\"300.2989 391.5556\" name=\"Perception/IsTargetClose\"
+    selected=\"False\" position=\"300.2989 390.4445\" name=\"Perception/IsTargetClose\"
     description=\"Eval\" cardinality=\"1\" hasParent=\"True\">\n          <BehaviorTree
     id=\"0\" />\n          <ConditionEvalNode id=\"19\" />\n          <PrioritySelectorNode
     id=\"1\" />\n        </data>\n      </_data>\n    </ConditionEvalNode>\n    <ActionNode
     id=\"2\">\n      <_data>\n        <data breakpoint=\"0\" selected=\"False\" position=\"300.2989
-    391.5556\" name=\"Navigation/MoveToGameObject\" description=\"Moves the game
+    390.4445\" name=\"Navigation/MoveToGameObject\" description=\"Moves the game
     object towards a given target by using a NavMeshAgent\" cardinality=\"0\" hasParent=\"True\">\n         
     <BehaviorTree id=\"0\" />\n          <ActionNode id=\"2\" />\n          <ConditionEvalNode
     id=\"3\" />\n        </data>\n      </_data>\n    </ActionNode>\n    <ConditionEvalNode
-    id=\"20\">\n      <_data>\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"587.2997 391.9055\" name=\"AlwaysTrue\" description=\"Eval\" cardinality=\"1\"
-    hasParent=\"True\">\n          <BehaviorTree id=\"0\" />\n          <ConditionEvalNode
-    id=\"20\" />\n          <PrioritySelectorNode id=\"1\" />\n        </data>\n     
-    </_data>\n    </ConditionEvalNode>\n    <SubbehaviorNode id=\"17\" _name=\"DoneWander\">\n     
-    <_data>\n        <data breakpoint=\"0\" selected=\"False\" position=\"587.2997
-    391.9055\" name=\"QuickStartGuide/DoneWander\" description=\"DoneWander\" cardinality=\"0\"
-    hasParent=\"True\">\n          <BehaviorTree id=\"0\" />\n          <SubbehaviorNode
-    id=\"17\" />\n          <ConditionEvalNode id=\"18\" />\n        </data>\n     
-    </_data>\n    </SubbehaviorNode>\n  </editorInfo>\n  <runtimeInfo>\n    <ConditionEvalNode
-    id=\"3\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\" name=\"Perception/IsTargetClose\">\n     
-    <inputParams>\n        <inputValues>\n          <entry name=\"target\" type=\"UnityEngine.GameObject\"
-    isBlackboard=\"True\" blackboard=\"player\" />\n          <entry name=\"closeDistance\"
-    type=\"System.Single\" isBlackboard=\"False\" value=\"15\" />\n        </inputValues>\n     
-    </inputParams>\n      <outputParams />\n      <localParams />\n    </ConditionEvalNode>\n   
-    <ConditionEvalNode id=\"18\" policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"AlwaysTrue\">\n     
-    <inputParams />\n      <outputParams />\n      <localParams />\n    </ConditionEvalNode>\n 
+    id=\"20\">\n      <_data>\n        <data breakpoint=\"0\" selected=\"True\" position=\"587.2997
+    391.9055\" name=\"AlwaysTrue\" description=\"Eval\" cardinality=\"1\" hasParent=\"True\">\n         
+    <BehaviorTree id=\"0\" />\n          <ConditionEvalNode id=\"20\" />\n         
+    <PrioritySelectorNode id=\"1\" />\n        </data>\n      </_data>\n    </ConditionEvalNode>\n   
+    <SubbehaviorNode id=\"17\" _name=\"DoneWander\">\n      <_data>\n        <data
+    breakpoint=\"0\" selected=\"False\" position=\"587.2997 391.9055\" name=\"QuickStartGuide/DoneWander\"
+    description=\"DoneWander\" cardinality=\"0\" hasParent=\"True\">\n          <BehaviorTree
+    id=\"0\" />\n          <SubbehaviorNode id=\"17\" />\n          <ConditionEvalNode
+    id=\"18\" />\n        </data>\n      </_data>\n    </SubbehaviorNode>\n  </editorInfo>\n 
+    <runtimeInfo>\n    <ConditionEvalNode id=\"3\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\"
+    name=\"Perception/IsTargetClose\">\n      <inputParams>\n        <inputValues>\n         
+    <entry name=\"target\" type=\"UnityEngine.GameObject\" isBlackboard=\"True\"
+    blackboard=\"player\" />\n          <entry name=\"closeDistance\" type=\"System.Single\"
+    isBlackboard=\"False\" value=\"15\" />\n        </inputValues>\n      </inputParams>\n     
+    <outputParams />\n      <localParams />\n    </ConditionEvalNode>\n    <ConditionEvalNode
+    id=\"18\" policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"AlwaysTrue\">\n      <inputParams
+    />\n      <outputParams />\n      <localParams />\n    </ConditionEvalNode>\n 
     </runtimeInfo>\n  <editorInfo>\n    <ConditionEvalNode id=\"3\">\n      <_data>\n       
     <data breakpoint=\"0\" selected=\"False\" position=\"223.375 54\" name=\"Perception/IsTargetClose\"
     description=\"Checks whether a target is close depending on a given distance\"

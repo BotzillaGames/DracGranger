@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a7c8ca992f915438a96c2077353778, type: 3}
+  m_Name: EnemyBB
+  m_EditorClassIdentifier: 
+  brickName: Assets/Scripts/IA_Enemies/EnemyBB.asset
+  xml: "\uFEFF<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<BehaviorBricks xmlns:ref=\"urn:padaone\"
+    version=\"1.0\">\n  <BehaviorTree id=\"0\" />\n  <runtimeInfo>\n    <BehaviorTree
+    id=\"0\" guid=\"6b48b720840434f8ca15766d0b247cda\" nextId=\"18\">\n      <root>\n       
+    <SequenceNode id=\"16\" />\n      </root>\n      <inputParams />\n      <outputParams>\n       
+    <outputValues>\n          <entry name=\"endPosition\" type=\"UnityEngine.Vector3\"
+    isBlackboard=\"True\" />\n        </outputValues>\n      </outputParams>\n     
+    <localParams />\n    </BehaviorTree>\n    <SequenceNode id=\"16\">\n      <children>\n       
+    <elem>\n          <ActionNode id=\"15\" />\n        </elem>\n        <elem>\n         
+    <ActionNode id=\"17\" />\n        </elem>\n      </children>\n      <inputParams
+    />\n      <outputParams />\n      <localParams />\n    </SequenceNode>\n    <ActionNode
+    id=\"15\" action=\"Custom/GetEnemyEndPosition\">\n      <inputParams>\n       
+    <inputValues>\n          <entry name=\"BorderPoints\" type=\"UnityEngine.Vector3\"
+    isBlackboard=\"True\" blackboard=\"BorderPointsX\" />\n        </inputValues>\n     
+    </inputParams>\n      <outputParams>\n        <outputValues>\n          <entry
+    name=\"endPosition\" type=\"UnityEngine.Vector3\" isBlackboard=\"True\" blackboard=\"endPosition\"
+    />\n        </outputValues>\n      </outputParams>\n      <localParams />\n   
+    </ActionNode>\n    <ActionNode id=\"17\" action=\"Navigation/MoveToPosition\">\n     
+    <inputParams>\n        <inputValues>\n          <entry name=\"target\" type=\"UnityEngine.Vector3\"
+    isBlackboard=\"True\" blackboard=\"endPosition\" />\n        </inputValues>\n     
+    </inputParams>\n      <outputParams />\n      <localParams />\n    </ActionNode>\n 
+    </runtimeInfo>\n  <editorInfo>\n    <BehaviorTree id=\"0\" _name=\"EnemyBB\"
+    _description=\"\" _removeIfClosed=\"False\">\n      <_rootList>\n        <elem>\n         
+    <ActionNode id=\"15\" />\n        </elem>\n        <elem>\n          <SequenceNode
+    id=\"16\" />\n        </elem>\n        <elem>\n          <ActionNode id=\"17\"
+    />\n        </elem>\n      </_rootList>\n      <_nodes>\n        <nodes>\n         
+    <SequenceNode id=\"16\" />\n          <ActionNode id=\"15\" />\n          <ActionNode
+    id=\"17\" />\n        </nodes>\n      </_nodes>\n    </BehaviorTree>\n    <SequenceNode
+    id=\"16\">\n      <_data>\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"715 253\" name=\"Sequence\" description=\"Executes all its children
+    in sequence until all of them are successful\" cardinality=\"-1\" hasParent=\"False\">\n         
+    <BehaviorTree id=\"0\" />\n          <SequenceNode id=\"16\" />\n        </data>\n     
+    </_data>\n    </SequenceNode>\n    <ActionNode id=\"15\">\n      <_data>\n       
+    <data breakpoint=\"0\" selected=\"False\" position=\"362 529\" name=\"Custom/GetEnemyEndPosition\"
+    description=\"Getsthe end position for the enemy\" cardinality=\"0\" hasParent=\"True\">\n         
+    <BehaviorTree id=\"0\" />\n          <ActionNode id=\"15\" />\n          <SequenceNode
+    id=\"16\" />\n        </data>\n      </_data>\n    </ActionNode>\n    <ActionNode
+    id=\"17\">\n      <_data>\n        <data breakpoint=\"0\" selected=\"False\"
+    position=\"737 514\" name=\"Navigation/MoveToPosition\" description=\"Moves the
+    game object to a given position by using a NavMeshAgent\" cardinality=\"0\" hasParent=\"True\">\n         
+    <BehaviorTree id=\"0\" />\n          <ActionNode id=\"17\" />\n          <SequenceNode
+    id=\"16\" />\n        </data>\n      </_data>\n    </ActionNode>\n  </editorInfo>\n</BehaviorBricks>"
+  zoom: 1
+  subslist: []
+  _guid: 6b48b720840434f8ca15766d0b247cda

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 365a8e81b748c432ab0a24b8b225b519, type: 3}
-  m_Name: StJordi
+  m_Name: Princesa
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4064271572958744845, guid: e55b6ad312c934501bacb518d3530847, type: 3}
+  prefab: {fileID: 4064271572958744845, guid: 90ee8cb80817046368f86f93bf8329cf, type: 3}
   velocity: 0
   numLifes: 0
   angle: 0
