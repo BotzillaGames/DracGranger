@@ -6,7 +6,11 @@ using UnityEngine.InputSystem;
 public class CustomCursor : MonoBehaviour
 {
 
+    public enum CursorType { Seed, Water, Cut, Fire, Default }
+
     public Sprite[] cursors;
+
+    public CursorType currentCursor = CursorType.Default;
 
     private SpriteRenderer srCursor;
 
@@ -30,21 +34,25 @@ public class CustomCursor : MonoBehaviour
         switch (name)
         {
             case "Seed":
-                srCursor.sprite = cursors[0];
+                currentCursor = CursorType.Seed;
+                srCursor.sprite = cursors[(int)CursorType.Seed];
                 break;
             case "Water":
-                srCursor.sprite = cursors[1];
+                currentCursor = CursorType.Water;
+                srCursor.sprite = cursors[(int)CursorType.Water];
                 break;
             case "Cut":
-                srCursor.sprite = cursors[2];
+                currentCursor = CursorType.Cut;
+                srCursor.sprite = cursors[(int)CursorType.Cut];
                 break;
             case "Fire":
-                srCursor.sprite = cursors[3];
+                currentCursor = CursorType.Fire;
+                srCursor.sprite = cursors[(int)CursorType.Fire];
                 break;
             case "Default":
-                srCursor.sprite = cursors[4];
+                currentCursor = CursorType.Default;
+                srCursor.sprite = cursors[(int)CursorType.Default];
                 break;
-
         }
     }
 }
