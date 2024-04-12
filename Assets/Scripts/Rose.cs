@@ -69,7 +69,6 @@ public class Rose : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.transform.tag == "Enemy"){
-            Debug.Log("OnTriggerEnter2D");
             transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
             roseSprite.enabled = true;
             roseSprite.color = Color.black;

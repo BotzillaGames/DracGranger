@@ -109,8 +109,10 @@ MonoBehaviour:
     intParams: 
     intParamsNames: []
     intParamsLostDefaultValue: 
-    boolParams: 
-    boolParamsNames: []
+    boolParams: 0000
+    boolParamsNames:
+    - MeQuemo
+    - IsAlive
     boolParamsLostDefaultValue: 
     floatParams: []
     floatParamsNames: []

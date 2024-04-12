@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.AI;
+using Pada1.BBCore; 
 
 public class EnemicController : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class EnemicController : MonoBehaviour
 
     private Vector3 initialPosition;
     private Vector3 endPosition;
+    private BehaviorExecutor behaviourExecutor;
 
     private bool isDead = false;
     
@@ -18,6 +20,10 @@ public class EnemicController : MonoBehaviour
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        behaviourExecutor = GetComponent<BehaviorExecutor>();
+
+        Destroy(gameObject, 10.0f);
     }
 
 
@@ -37,10 +43,14 @@ public class EnemicController : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+    
+
         if(other.tag == "Rosa"){
-            isDead = true;
-            Destroy(gameObject, 1.0f);
+            //gameObject.GetComponent<Enemy>().numLifes--;
+            //myBlackboard["MeQuemo"] = true;
+            Debug.Log("MeQuemo");
+            behaviourExecutor.SetBehaviorParam("IsAlive", !isDead);
+            behaviourExecutor.SetBehaviorParam("MeQuemo", true);
         }
     }
-
 }
