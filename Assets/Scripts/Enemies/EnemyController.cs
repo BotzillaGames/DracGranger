@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     private Vector3 initialPosition;
     private Vector3 endPosition;
     private Vector3 burningPosition;
-    int[] anglesToRotat = {-45, 0, 45};
+    int angleToRotate;
 
     private bool isDead = false;
     private float velocity;
@@ -36,17 +36,19 @@ public class EnemyController : MonoBehaviour
                 isBurning = false;
                 
             }
-        } else {
-           if(CheckIfItsInThePosition(endPosition)){
-                Destroy(gameObject, 2f);
-           }
+        } 
+
+
+        if(CheckIfItsInThePosition(endPosition)){
+            Destroy(gameObject, 2f);
         }
+        
     }
 
-    public void InitializateEnemyValues(Enemy enemy, int[] angles){
+    public void InitializateEnemyValues(Enemy enemy, int angle){
         velocity = enemy.velocity;
         numLifes = enemy.numLifes;
-        anglesToRotat = angles;
+        angleToRotate = angle;
     }
 
     public void SetInitialPosition(Vector3 initPosition){
@@ -58,18 +60,10 @@ public class EnemyController : MonoBehaviour
 
         Vector3 forwardVector = -gameObject.transform.right;
 
-        Quaternion rotation = Quaternion.Euler(0, 0, anglesToRotat[Random.Range(0, anglesToRotat.Length)]); 
+        Quaternion rotation = Quaternion.Euler(0, 0, angleToRotate); 
         Vector3 endRotation = rotation * forwardVector;
-        gameObject.transform.rotation = rotation;
-
-        endPosition = initialPosition + (-gameObject.transform.right * 20);
-
-        //Em falta comprovar q van cap al centre
-
-        /*GameObject[] roses = GameObject.FindGameObjectsWithTag("Rose");
-        if(roses.Length > 0){
-            endPosition = roses[Random.Range(0, roses.Length)].transform.position;
-        }*/
+        
+        endPosition = initialPosition + (-endRotation * 20);
 
         MoveToEndPosition();
     }
@@ -84,7 +78,7 @@ public class EnemyController : MonoBehaviour
 
     public bool CheckIfItsInThePosition(Vector3 position){
         float distanceToTarget = Vector3.Distance(gameObject.transform.position, position);
-        if(distanceToTarget <= 0.5f){
+        if(distanceToTarget <= 2.0f){
             return true;
         } else {
             return false;
