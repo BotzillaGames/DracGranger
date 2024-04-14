@@ -19,11 +19,15 @@ public class EnemyController : MonoBehaviour
     private const float fireForce = 3.0f;
     private bool isTriggered = false;
 
+    private Rigidbody rb;
+
     private void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        rb = GetComponent<Rigidbody2D>();
 
         SetEndPosition();
     }
@@ -63,7 +67,7 @@ public class EnemyController : MonoBehaviour
         Quaternion rotation = Quaternion.Euler(0, 0, angleToRotate); 
         Vector3 endRotation = rotation * forwardVector;
         
-        endPosition = initialPosition + (-endRotation * 20);
+        endPosition = initialPosition + (-endRotation * 15);
 
         MoveToEndPosition();
     }
@@ -87,7 +91,7 @@ public class EnemyController : MonoBehaviour
 
 
     public void ApplyBurningForce(){
-        gameObject.GetComponent<Rigidbody2D>().AddForce(Vector3.Normalize(initialPosition-transform.position) * fireForce, ForceMode2D.Impulse);
+        rb.AddForce(Vector3.Normalize(initialPosition-transform.position) * fireForce, ForceMode2D.Impulse);
     }
     
     private void OnTriggerEnter2D(Collider2D other)
