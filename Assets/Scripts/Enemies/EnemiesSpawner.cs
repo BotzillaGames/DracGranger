@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    private GameObject enemy;
+    private Enemy enemy;
 
     public Enemy[] allEnemies;
 
@@ -26,10 +26,9 @@ public class EnemiesSpawner : MonoBehaviour
     {
         enemy = ChooseEnemy();
 
-        GameObject newEnemy = Instantiate(enemy);  
+        GameObject newEnemy = Instantiate(enemy.prefab);  
         
         Vector3 position;
-        //Escull quina cantonada utilitzarem
         int randomValue = Random.Range(1, 4);
         switch (randomValue) {
         case 1:
@@ -52,12 +51,13 @@ public class EnemiesSpawner : MonoBehaviour
         newEnemy.transform.parent = grid.transform;
         Vector3Int cellPosition = grid.LocalToCell(position);
         newEnemy.transform.localPosition = grid.GetCellCenterLocal(cellPosition);
-
         newEnemy.GetComponent<EnemyController>().SetInitialPosition(cellPosition);
+
+        newEnemy.GetComponent<EnemyController>().InitializateEnemyValues(enemy);
     }
 
 
-    private GameObject ChooseEnemy(){
-        return allEnemies[Random.Range(0, allEnemies.Length)].prefab;
+    private Enemy ChooseEnemy(){
+        return allEnemies[Random.Range(0, allEnemies.Length)];
     }
 }

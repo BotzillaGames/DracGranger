@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b37801a3d18942798071143f8b8007e, type: 3}
   m_Name: Princesa
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 2245794066982133400, guid: cf9fc38f5a6e748369267712b650f5ec, type: 3}
   velocity: 2
   numLifes: 1
-  enemyType: 

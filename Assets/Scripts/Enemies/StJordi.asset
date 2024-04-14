@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b37801a3d18942798071143f8b8007e, type: 3}
   m_Name: StJordi
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 2245794066982133400, guid: 8934b3bb5324f4a24afa1b8c358fce17, type: 3}
   velocity: 5
   numLifes: 3
   enemyType: 
