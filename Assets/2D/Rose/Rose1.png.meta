@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rose1_0: 1219651468429114816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
