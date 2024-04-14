@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
     private const float fireForce = 3.0f;
     private bool isTriggered = false;
 
-    private Rigidbody rb;
+    private Rigidbody2D rb;
 
     private void Start()
     {
