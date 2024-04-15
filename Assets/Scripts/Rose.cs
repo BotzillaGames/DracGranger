@@ -49,6 +49,13 @@ public class Rose : MonoBehaviour
         }
     }
 
+    public void SetRoseDead(){
+        transform.GetChild(roseLifeStep).GetComponent<SpriteRenderer>().enabled = false;
+        roseLifeStep = 3;
+        transform.GetChild(roseLifeStep).GetComponent<SpriteRenderer>().enabled = true;
+
+    }
+
 }
 
 
