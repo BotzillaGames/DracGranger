@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
     private bool isTriggered = false;
 
     private Rigidbody2D rb;
+    private Animator animator;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class EnemyController : MonoBehaviour
         agent.updateUpAxis = false;
 
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         SetEndPosition();
     }
@@ -77,6 +79,7 @@ public class EnemyController : MonoBehaviour
             agent.isStopped = false;
             agent.SetDestination(endPosition);
             agent.velocity = Vector3.Normalize(agent.velocity) * velocity;
+            animator.SetFloat("speed", Mathf.Abs(velocity));
         }
     }
 
