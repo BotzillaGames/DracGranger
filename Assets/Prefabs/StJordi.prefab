@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4561166784163367257}
   - component: {fileID: 3722339854959942993}
   - component: {fileID: 5433485100452638208}
+  - component: {fileID: 5586529177841017700}
   m_Layer: 0
   m_Name: StJordi
   m_TagString: Enemy
@@ -143,6 +144,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 11.62, y: 22.557117}
   m_EdgeRadius: 0
+--- !u!95 &5586529177841017700
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2245794066982133400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 181d5bcd1b36541478235afe3b24eb03, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4035435983722638232
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8162942857765972107}
   - component: {fileID: 2208741628272809600}
+  - component: {fileID: 2208324179419322526}
   m_Layer: 0
   m_Name: SpriteRenderer
   m_TagString: Untagged
@@ -216,7 +240,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5969102886761362273, guid: 154dd92c06ab547de8385e7b21ebe827, type: 3}
+  m_Sprite: {fileID: -7224970676885325973, guid: f2875f43a3c6047c990e3cfb00d12dfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -227,3 +251,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2208324179419322526
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4035435983722638232}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 181d5bcd1b36541478235afe3b24eb03, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
