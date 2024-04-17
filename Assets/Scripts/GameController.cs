@@ -15,12 +15,8 @@ public class GameController : MonoBehaviour
         uiController.UpdatePoints(points);
     }
 
-    void Update()
+    public void AddPoints(int numPointsToAdd)
     {
-        
-    }
-
-    public void AddPoints(int numPointsToAdd){
         points += numPointsToAdd;
         uiController.UpdatePoints(points);
     }

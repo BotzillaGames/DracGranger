@@ -90,7 +90,7 @@ public class MouseController : MonoBehaviour
 
         List<Vector2> instantiatedFire = new List<Vector2>();
 
-        for (int i = 1; i < Math.Floor(lineMag); i++)
+        for (float i = 1; i < Math.Floor(lineMag); i = i + 0.2f)
         {
             Debug.DrawLine(point2, point1, Color.yellow, 1000);
             float normal = Mathf.InverseLerp(1, (float)Math.Floor(lineMag), i);

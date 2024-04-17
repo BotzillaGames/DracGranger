@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 public class InputHandler : MonoBehaviour
 {
 
+    public CustomCursor cursorStatus;
+    public GameController gameController;
     private Camera _mainCamera;
 
     // Start is called before the first frame update
@@ -26,7 +28,9 @@ public class InputHandler : MonoBehaviour
         Rose rose = rayHit.collider.GetComponent<Rose>();
         if (rose)
         {
-            rose.ClickRose();
+            bool shouldAddPoints = rose.ClickRose(cursorStatus.currentCursor);
+            if (shouldAddPoints) gameController.AddPoints(1);
+            cursorStatus.OnCursorChange("Default");
         }
     }
 }

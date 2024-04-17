@@ -11,10 +11,14 @@ public class UIController : MonoBehaviour
     public TMP_Text pointsText;
 
     public Timer timer;
-    // Start is called before the first frame update
+
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
     void Start()
     {
-        
+        pointsText.text = "0";
     }
 
     // Update is called once per frame
@@ -37,7 +41,8 @@ public class UIController : MonoBehaviour
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
-    public void UpdatePoints(int numPoints){
-       pointsText.text = numPoints.ToString();
+    public void UpdatePoints(int numPoints)
+    {
+        pointsText.text = numPoints.ToString();
     }
 }

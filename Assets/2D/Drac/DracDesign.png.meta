@@ -1,0 +1,4499 @@
+fileFormatVersion: 2
+guid: c9d79a30c3edc494fb197ea2da11dfdd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5665309092960251610
+    second: DracDesign_0
+  - first:
+      213: -335393602230677822
+    second: DracDesign_1
+  - first:
+      213: 2593114613740327616
+    second: DracDesign_2
+  - first:
+      213: 7153229182834227051
+    second: DracDesign_3
+  - first:
+      213: -6185838443514539029
+    second: DracDesign_4
+  - first:
+      213: -4802971317974500767
+    second: DracDesign_5
+  - first:
+      213: -1401757038229325094
+    second: DracDesign_6
+  - first:
+      213: 2967955757478995260
+    second: DracDesign_7
+  - first:
+      213: 1307374580633294951
+    second: DracDesign_8
+  - first:
+      213: -1159304161269235896
+    second: DracDesign_9
+  - first:
+      213: 3322652811700135802
+    second: DracDesign_10
+  - first:
+      213: 2762045692001027773
+    second: DracDesign_11
+  - first:
+      213: -8662799779409766402
+    second: DracDesign_12
+  - first:
+      213: 1096054396970485704
+    second: DracDesign_13
+  - first:
+      213: 7029728053659800070
+    second: DracDesign_14
+  - first:
+      213: -8810409507873627848
+    second: DracDesign_15
+  - first:
+      213: 1144481398138451750
+    second: DracDesign_16
+  - first:
+      213: 3273203285307275773
+    second: DracDesign_17
+  - first:
+      213: -3439198723939082100
+    second: DracDesign_18
+  - first:
+      213: -9090398215179117411
+    second: DracDesign_19
+  - first:
+      213: -7842434203739988037
+    second: DracDesign_20
+  - first:
+      213: 7580920665534208094
+    second: DracDesign_21
+  - first:
+      213: 1320030945560393263
+    second: DracDesign_22
+  - first:
+      213: -4001401030557944811
+    second: DracDesign_23
+  - first:
+      213: -6043034639368628916
+    second: DracDesign_24
+  - first:
+      213: 8335350143607683903
+    second: DracDesign_25
+  - first:
+      213: -3639111819529389791
+    second: DracDesign_26
+  - first:
+      213: 6719477958339924419
+    second: DracDesign_27
+  - first:
+      213: 7466956143216409844
+    second: DracDesign_28
+  - first:
+      213: -106779646645127879
+    second: DracDesign_29
+  - first:
+      213: 7313273383740471192
+    second: DracDesign_30
+  - first:
+      213: -3577733046212866173
+    second: DracDesign_31
+  - first:
+      213: -4306046820501637359
+    second: DracDesign_32
+  - first:
+      213: -6658941306104455252
+    second: DracDesign_33
+  - first:
+      213: -3180914021462616610
+    second: DracDesign_34
+  - first:
+      213: -7825105784147268666
+    second: DracDesign_35
+  - first:
+      213: -6938575587452217183
+    second: DracDesign_36
+  - first:
+      213: -9069467820871508523
+    second: DracDesign_37
+  - first:
+      213: 8764179961500079826
+    second: DracDesign_38
+  - first:
+      213: 3343992030750462839
+    second: DracDesign_39
+  - first:
+      213: 6467136683285080730
+    second: DracDesign_40
+  - first:
+      213: 4723560342549984238
+    second: DracDesign_41
+  - first:
+      213: 7437730321694979418
+    second: DracDesign_42
+  - first:
+      213: 1364732809722104826
+    second: DracDesign_43
+  - first:
+      213: -3997931543722754435
+    second: DracDesign_44
+  - first:
+      213: 5559186376439991526
+    second: DracDesign_45
+  - first:
+      213: -3362452322647814389
+    second: DracDesign_46
+  - first:
+      213: 5560506318001122951
+    second: DracDesign_47
+  - first:
+      213: -6121930886215428036
+    second: DracDesign_48
+  - first:
+      213: 1396671031618907479
+    second: DracDesign_49
+  - first:
+      213: -1192572319619390769
+    second: DracDesign_50
+  - first:
+      213: -1557089098985525692
+    second: DracDesign_51
+  - first:
+      213: 2997732806745451533
+    second: DracDesign_52
+  - first:
+      213: -2990911585803527132
+    second: DracDesign_53
+  - first:
+      213: 1841167768784197057
+    second: DracDesign_54
+  - first:
+      213: -8909128929894767899
+    second: DracDesign_55
+  - first:
+      213: -3803478844695128910
+    second: DracDesign_56
+  - first:
+      213: 5635672342377651729
+    second: DracDesign_57
+  - first:
+      213: -61381686829652878
+    second: DracDesign_58
+  - first:
+      213: 4397400047228327214
+    second: DracDesign_59
+  - first:
+      213: -626155457691044435
+    second: DracDesign_60
+  - first:
+      213: 2921237213935307522
+    second: DracDesign_61
+  - first:
+      213: 5153050584984331091
+    second: DracDesign_62
+  - first:
+      213: -1090689102910923753
+    second: DracDesign_63
+  - first:
+      213: 191837016072860754
+    second: DracDesign_64
+  - first:
+      213: 6827398256346319177
+    second: DracDesign_65
+  - first:
+      213: -494821747586578283
+    second: DracDesign_66
+  - first:
+      213: -1952492326741643181
+    second: DracDesign_67
+  - first:
+      213: -8437293581188837986
+    second: DracDesign_68
+  - first:
+      213: -3373813754640177402
+    second: DracDesign_69
+  - first:
+      213: -3189708690781812637
+    second: DracDesign_70
+  - first:
+      213: -1362008761085133083
+    second: DracDesign_71
+  - first:
+      213: 8925043979152548468
+    second: DracDesign_72
+  - first:
+      213: -2501818577618255110
+    second: DracDesign_73
+  - first:
+      213: -7942257366075796293
+    second: DracDesign_74
+  - first:
+      213: 542199795497149798
+    second: DracDesign_75
+  - first:
+      213: -7390470703141524075
+    second: DracDesign_76
+  - first:
+      213: -8619371838659160619
+    second: DracDesign_77
+  - first:
+      213: -4136401811333212772
+    second: DracDesign_78
+  - first:
+      213: 1617156200666917855
+    second: DracDesign_79
+  - first:
+      213: -3103329993631726963
+    second: DracDesign_80
+  - first:
+      213: -3087446771657682928
+    second: DracDesign_81
+  - first:
+      213: 198507856540855643
+    second: DracDesign_82
+  - first:
+      213: 5771986358270651051
+    second: DracDesign_83
+  - first:
+      213: -2659975622284947340
+    second: DracDesign_84
+  - first:
+      213: -8985911168981544126
+    second: DracDesign_85
+  - first:
+      213: 3338722042187054549
+    second: DracDesign_86
+  - first:
+      213: 5869879936525451364
+    second: DracDesign_87
+  - first:
+      213: 6476315413216215221
+    second: DracDesign_88
+  - first:
+      213: -8414305744968822723
+    second: DracDesign_89
+  - first:
+      213: 8168877545170190515
+    second: DracDesign_90
+  - first:
+      213: 5834224835199524341
+    second: DracDesign_91
+  - first:
+      213: -6562674665051089945
+    second: DracDesign_92
+  - first:
+      213: -8511792920246688374
+    second: DracDesign_93
+  - first:
+      213: 8287592576884271091
+    second: DracDesign_94
+  - first:
+      213: -3444504661634141515
+    second: DracDesign_95
+  - first:
+      213: 4546438212442866732
+    second: DracDesign_96
+  - first:
+      213: -2462021253242055531
+    second: DracDesign_97
+  - first:
+      213: 315782303261489987
+    second: DracDesign_98
+  - first:
+      213: -55440274772498003
+    second: DracDesign_99
+  - first:
+      213: 6871762864682639085
+    second: DracDesign_100
+  - first:
+      213: 5421799018221862584
+    second: DracDesign_101
+  - first:
+      213: 8923745929562692831
+    second: DracDesign_102
+  - first:
+      213: 988139194395592862
+    second: DracDesign_103
+  - first:
+      213: -8780646630095219172
+    second: DracDesign_104
+  - first:
+      213: 6786007855481685328
+    second: DracDesign_105
+  - first:
+      213: -7824124826034251557
+    second: DracDesign_106
+  - first:
+      213: 9164833058190137602
+    second: DracDesign_107
+  - first:
+      213: -2291146558485713219
+    second: DracDesign_108
+  - first:
+      213: 6063944339123343687
+    second: DracDesign_109
+  - first:
+      213: -621510790023596670
+    second: DracDesign_110
+  - first:
+      213: 2861193180764163305
+    second: DracDesign_111
+  - first:
+      213: -3229817321724271889
+    second: DracDesign_112
+  - first:
+      213: 5640289242056610903
+    second: DracDesign_113
+  - first:
+      213: -867104541811427342
+    second: DracDesign_114
+  - first:
+      213: -8707773980155877769
+    second: DracDesign_115
+  - first:
+      213: -354709495153076919
+    second: DracDesign_116
+  - first:
+      213: 4006433556590002069
+    second: DracDesign_117
+  - first:
+      213: -5001616481455291769
+    second: DracDesign_118
+  - first:
+      213: -2998780523113881452
+    second: DracDesign_119
+  - first:
+      213: -9196826896151788557
+    second: DracDesign_120
+  - first:
+      213: -1695694527296162946
+    second: DracDesign_121
+  - first:
+      213: 5504974340350894444
+    second: DracDesign_122
+  - first:
+      213: 4126801395709956549
+    second: DracDesign_123
+  - first:
+      213: 6125199217955158616
+    second: DracDesign_124
+  - first:
+      213: 1453567012476693651
+    second: DracDesign_125
+  - first:
+      213: 1624952285864520960
+    second: DracDesign_126
+  - first:
+      213: -1620490657548171571
+    second: DracDesign_127
+  - first:
+      213: -1885543772349835913
+    second: DracDesign_128
+  - first:
+      213: -4505491029260071458
+    second: DracDesign_129
+  - first:
+      213: 1668250194864187320
+    second: DracDesign_130
+  - first:
+      213: 204725230750973301
+    second: DracDesign_131
+  - first:
+      213: -1039941139105370836
+    second: DracDesign_132
+  - first:
+      213: -252170001653109216
+    second: DracDesign_133
+  - first:
+      213: 2329801103269789780
+    second: DracDesign_134
+  - first:
+      213: 6182493349709103233
+    second: DracDesign_135
+  - first:
+      213: -1099462669480457255
+    second: DracDesign_136
+  - first:
+      213: -822477676064641264
+    second: DracDesign_137
+  - first:
+      213: 3114986595873509886
+    second: DracDesign_138
+  - first:
+      213: -4222236391982917216
+    second: DracDesign_139
+  - first:
+      213: -3267632448843060
+    second: DracDesign_140
+  - first:
+      213: -6490631223373924047
+    second: DracDesign_141
+  - first:
+      213: -8584157188879417488
+    second: DracDesign_142
+  - first:
+      213: 6254590785793332333
+    second: DracDesign_143
+  - first:
+      213: 6554007419722262116
+    second: DracDesign_144
+  - first:
+      213: 4697867193456809253
+    second: DracDesign_145
+  - first:
+      213: 1412591253446851767
+    second: DracDesign_146
+  - first:
+      213: -5706939314185324243
+    second: DracDesign_147
+  - first:
+      213: 7677992647146866075
+    second: DracDesign_148
+  - first:
+      213: -6887655631312986688
+    second: DracDesign_149
+  - first:
+      213: 2238278149389400198
+    second: DracDesign_150
+  - first:
+      213: 6851922933121056083
+    second: DracDesign_151
+  - first:
+      213: 4661407911404805065
+    second: DracDesign_152
+  - first:
+      213: 4535584068546145961
+    second: DracDesign_153
+  - first:
+      213: -3510951917050567084
+    second: DracDesign_154
+  - first:
+      213: 5827684425138483209
+    second: DracDesign_155
+  - first:
+      213: 1161170912657638199
+    second: DracDesign_156
+  - first:
+      213: -2889064895419193313
+    second: DracDesign_157
+  - first:
+      213: -7711596853672483956
+    second: DracDesign_158
+  - first:
+      213: 8810775677629404979
+    second: DracDesign_159
+  - first:
+      213: -454003409689535287
+    second: DracDesign_160
+  - first:
+      213: -8616191080626676069
+    second: DracDesign_161
+  - first:
+      213: 1914460202243806291
+    second: DracDesign_162
+  - first:
+      213: -2473640948723055358
+    second: DracDesign_163
+  - first:
+      213: -1717915298150324186
+    second: DracDesign_164
+  - first:
+      213: -297626443495304306
+    second: DracDesign_165
+  - first:
+      213: 2165026564240172952
+    second: DracDesign_166
+  - first:
+      213: -178042749169941740
+    second: DracDesign_167
+  - first:
+      213: -8172450234232937006
+    second: DracDesign_168
+  - first:
+      213: -6649414904151860724
+    second: DracDesign_169
+  - first:
+      213: -3753877018173051252
+    second: DracDesign_170
+  - first:
+      213: 3536526403341522276
+    second: DracDesign_171
+  - first:
+      213: -2301921374017723446
+    second: DracDesign_172
+  - first:
+      213: -6996503353829552078
+    second: DracDesign_173
+  - first:
+      213: -7661417975035171299
+    second: DracDesign_174
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DracDesign_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 6
+        width: 3418
+        height: 3301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeafac9a983f9e40800000000000000
+      internalID: 5665309092960251610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_1
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 3301
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce0a17bb41785bf0800000000000000
+      internalID: -335393602230677822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_2
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 3296
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2ddd590089cf320800000000000000
+      internalID: 2593114613740327616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_3
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 3301
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67bac7da00654360800000000000000
+      internalID: 7153229182834227051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_4
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 3212
+        width: 64
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be35c58a5bc772aa0800000000000000
+      internalID: -6185838443514539029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_5
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 3286
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a7db5980b685db0800000000000000
+      internalID: -4802971317974500767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_6
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 3266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaffea8665fb8ce0800000000000000
+      internalID: -1401757038229325094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_7
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 3254
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c356c99590c403920800000000000000
+      internalID: 2967955757478995260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_8
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 3252
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768d50b114ab42210800000000000000
+      internalID: 1307374580633294951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_9
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3254
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f3ae0f10359efe0800000000000000
+      internalID: -1159304161269235896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_10
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 3254
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77e659c02f6c1e20800000000000000
+      internalID: 3322652811700135802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_11
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 3194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db68e154ce1c45620800000000000000
+      internalID: 2762045692001027773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_12
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 3140
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7d2f38f7d87c780800000000000000
+      internalID: -8662799779409766402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_13
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 3176
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c74ee9baa7f53f00800000000000000
+      internalID: 1096054396970485704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_14
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2953
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6029df17b6c9e8160800000000000000
+      internalID: 7029728053659800070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_15
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 2985
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831e77d6b332bb580800000000000000
+      internalID: -8810409507873627848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_16
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 2938
+        width: 86
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627b51494c302ef00800000000000000
+      internalID: 1144481398138451750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_17
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 2695
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9b16abb01cc6d20800000000000000
+      internalID: 3273203285307275773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_18
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 2689
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8062a37bf28540d0800000000000000
+      internalID: -3439198723939082100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_19
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 2605
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c576d7cfa68d180800000000000000
+      internalID: -9090398215179117411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_20
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2609
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf54b784a31a2390800000000000000
+      internalID: -7842434203739988037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_21
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 2581
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58959b0e27d43960800000000000000
+      internalID: 7580920665534208094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_22
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 2595
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2676a2b621b15210800000000000000
+      internalID: 1320030945560393263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_23
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 2524
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51436b986fa2878c0800000000000000
+      internalID: -4001401030557944811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_24
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 2504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c455d0b4304d22ca0800000000000000
+      internalID: -6043034639368628916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_25
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 2494
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bbc340bcc1da370800000000000000
+      internalID: 8335350143607683903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_26
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2427
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129760bb4174f7dc0800000000000000
+      internalID: -3639111819529389791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_27
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 2371
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c11bee0a91604d50800000000000000
+      internalID: 6719477958339924419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_28
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 2339
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcb5d5fc05ff9760800000000000000
+      internalID: 7466956143216409844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_29
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 2283
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935b9742a74a48ef0800000000000000
+      internalID: -106779646645127879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_30
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2249
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8977b272567fd7560800000000000000
+      internalID: 7313273383740471192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_31
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 2243
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f4e4700c6595ec0800000000000000
+      internalID: -3577733046212866173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_32
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 2219
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117bccd2b39dd34c0800000000000000
+      internalID: -4306046820501637359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_33
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2205
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafd775a920b693a0800000000000000
+      internalID: -6658941306104455252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_34
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 2190
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed559a9fc8f1bd3d0800000000000000
+      internalID: -3180914021462616610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_35
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2195
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb2c0e9fb3a76390800000000000000
+      internalID: -7825105784147268666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_36
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 2177
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a896bee34a35bf90800000000000000
+      internalID: -6938575587452217183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_37
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 2181
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd1e1ba117c22280800000000000000
+      internalID: -9069467820871508523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_38
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2166
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d61fc88d3f90a970800000000000000
+      internalID: 8764179961500079826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_39
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2171
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7735e94e80f386e20800000000000000
+      internalID: 3343992030750462839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_40
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2161
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aea119c82efb950800000000000000
+      internalID: 6467136683285080730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_41
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 2131
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee370d4ea157d8140800000000000000
+      internalID: 4723560342549984238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_42
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2121
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55f7cf1250283760800000000000000
+      internalID: 7437730321694979418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_43
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 2105
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb8ec0824180f210800000000000000
+      internalID: 1364732809722104826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_44
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 2111
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e7314617e7488c0800000000000000
+      internalID: -3997931543722754435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_45
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 2114
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec85e73e82362d40800000000000000
+      internalID: 5559186376439991526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_46
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 2102
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fc3667d6b2651d0800000000000000
+      internalID: -3362452322647814389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_47
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 2093
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea5cf0903ea2d40800000000000000
+      internalID: 5560506318001122951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_48
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 2098
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3813ab5b488a0ba0800000000000000
+      internalID: -6121930886215428036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_49
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 2085
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d29b347e8f16310800000000000000
+      internalID: 1396671031618907479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_50
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 2059
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc26f183bc1237fe0800000000000000
+      internalID: -1192572319619390769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_51
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 2066
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ea55bd6bb146ae0800000000000000
+      internalID: -1557089098985525692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_52
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 2041
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ce895ea161a9920800000000000000
+      internalID: 2997732806745451533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_53
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 1991
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c949d52c52e76d0800000000000000
+      internalID: -2990911585803527132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_54
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1976
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d74ea4542d8910800000000000000
+      internalID: 1841167768784197057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_55
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 1976
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2677bd07a6c5480800000000000000
+      internalID: -8909128929894767899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_56
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 1929
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4db377424573bc0800000000000000
+      internalID: -3803478844695128910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_57
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 1898
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ed9e5e22ee53e40800000000000000
+      internalID: 5635672342377651729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_58
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 1871
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274edc85eade52ff0800000000000000
+      internalID: -61381686829652878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_59
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 1882
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2594566b04b60d30800000000000000
+      internalID: 4397400047228327214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_60
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 1866
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da53722cde27f47f0800000000000000
+      internalID: -626155457691044435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_61
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 1828
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b0449c4c15a8820800000000000000
+      internalID: 2921237213935307522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_62
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 1844
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3532c9b7430538740800000000000000
+      internalID: 5153050584984331091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_63
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 1817
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cda942a081dd0f0800000000000000
+      internalID: -1090689102910923753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_64
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 1778
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543bcdefba89a200800000000000000
+      internalID: 191837016072860754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_65
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1765
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949c4a18a8acfbe50800000000000000
+      internalID: 6827398256346319177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_66
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1757
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598c6f30e3a0229f0800000000000000
+      internalID: -494821747586578283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_67
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 1754
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35073e5d29a57e4e0800000000000000
+      internalID: -1952492326741643181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_68
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 1748
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d4e8bc036b8ea80800000000000000
+      internalID: -8437293581188837986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_69
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 1703
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6076850f34ecd21d0800000000000000
+      internalID: -3373813754640177402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_70
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1690
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36849f478d0ebb3d0800000000000000
+      internalID: -3189708690781812637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_71
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 1692
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eefc8e7f3c291de0800000000000000
+      internalID: -1362008761085133083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_72
+      rect:
+        serializedVersion: 2
+        x: 3364
+        y: 1683
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472602e46302cdb70800000000000000
+      internalID: 8925043979152548468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_73
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1626
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af247944241c74dd0800000000000000
+      internalID: -2501818577618255110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_74
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 1631
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb49254610f67c190800000000000000
+      internalID: -7942257366075796293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_75
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1606
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a5ef57d7468700800000000000000
+      internalID: 542199795497149798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_76
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 1601
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d61584d06cf6990800000000000000
+      internalID: -7390470703141524075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_77
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1528
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d517b9eaf6d16880800000000000000
+      internalID: -8619371838659160619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_78
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 1518
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95933bd77c8896c0800000000000000
+      internalID: -4136401811333212772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_79
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1507
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb62171ffa417610800000000000000
+      internalID: 1617156200666917855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_80
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 1501
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8204cc10d1cee4d0800000000000000
+      internalID: -3103329993631726963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_81
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 1492
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010da68e48f2725d0800000000000000
+      internalID: -3087446771657682928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_82
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1385
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ded3208dd31c200800000000000000
+      internalID: 198507856540855643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_83
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 1363
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa6f15f2073a1050800000000000000
+      internalID: 5771986358270651051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_84
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1346
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470d182c34ed51bd0800000000000000
+      internalID: -2659975622284947340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_85
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 1304
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243d3a5b661ab4380800000000000000
+      internalID: -8985911168981544126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_86
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 1308
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd73501206855e20800000000000000
+      internalID: 3338722042187054549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_87
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1297
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460cacac3b0067150800000000000000
+      internalID: 5869879936525451364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_88
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 1154
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0c32a2e8e70e950800000000000000
+      internalID: 6476315413216215221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_89
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1129
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30da9f71816a3b80800000000000000
+      internalID: -8414305744968822723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_90
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1122
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0c885c8dead5170800000000000000
+      internalID: 8168877545170190515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_91
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 1083
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd54d9939457f050800000000000000
+      internalID: 5834224835199524341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_92
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 1073
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e39c25a922bce4a0800000000000000
+      internalID: -6562674665051089945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_93
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 864
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85e20bbf6900e980800000000000000
+      internalID: -8511792920246688374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_94
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 861
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e9540a81730370800000000000000
+      internalID: 8287592576884271091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_95
+      rect:
+        serializedVersion: 2
+        x: 3444
+        y: 775
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2be109249a230d0800000000000000
+      internalID: -3444504661634141515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_96
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 779
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c244be55771381f30800000000000000
+      internalID: 4546438212442866732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_97
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 771
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5949b0be6b425ddd0800000000000000
+      internalID: -2462021253242055531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_98
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 765
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b714ce452e16400800000000000000
+      internalID: 315782303261489987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_99
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 749
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da96fe32d590b3ff0800000000000000
+      internalID: -55440274772498003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_100
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 731
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee1122dae76d5f50800000000000000
+      internalID: 6871762864682639085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_101
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 723
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8befcac2b791e3b40800000000000000
+      internalID: 5421799018221862584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_102
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 693
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc1c6594a387db70800000000000000
+      internalID: 8923745929562692831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_103
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 663
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e980796ac5396bd00800000000000000
+      internalID: 988139194395592862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_104
+      rect:
+        serializedVersion: 2
+        x: 3397
+        y: 673
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1691fa6960e42680800000000000000
+      internalID: -8780646630095219172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_105
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0550ff4d03ebc2e50800000000000000
+      internalID: 6786007855481685328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_106
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 541
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8d9e9bcef1b6390800000000000000
+      internalID: -7824124826034251557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_107
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 518
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2091e2beb17003f70800000000000000
+      internalID: 9164833058190137602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_108
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 508
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbea91518563430e0800000000000000
+      internalID: -2291146558485713219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_109
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 508
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741103f8f35772450800000000000000
+      internalID: 6063944339123343687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_110
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 452
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2853298ba33ff57f0800000000000000
+      internalID: -621510790023596670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_111
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 428
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecc735e90005b720800000000000000
+      internalID: 2861193180764163305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_112
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 389
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2a83912426d23d0800000000000000
+      internalID: -3229817321724271889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_113
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 360
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754dd3f9e25564e40800000000000000
+      internalID: 5640289242056610903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_114
+      rect:
+        serializedVersion: 2
+        x: 3334
+        y: 300
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b33a630d67f3f0800000000000000
+      internalID: -867104541811427342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_115
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 301
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7766b6863b5c72780800000000000000
+      internalID: -8707773980155877769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_116
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 305
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94551fee791d31bf0800000000000000
+      internalID: -354709495153076919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_117
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 291
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f70ccb716b99730800000000000000
+      internalID: 4006433556590002069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_118
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 280
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7824e105f40b69ab0800000000000000
+      internalID: -5001616481455291769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_119
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 281
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490ef60a0013266d0800000000000000
+      internalID: -2998780523113881452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_120
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 271
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f34d123aae4e5080800000000000000
+      internalID: -9196826896151788557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_121
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 259
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7330f4cfcea778e0800000000000000
+      internalID: -1695694527296162946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_122
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 267
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c616146fef8956c40800000000000000
+      internalID: 5504974340350894444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_123
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 273
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1d0e13108554930800000000000000
+      internalID: 4126801395709956549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_124
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ab7bc6c34110550800000000000000
+      internalID: 6125199217955158616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_125
+      rect:
+        serializedVersion: 2
+        x: 3445
+        y: 229
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c26eb1f7b1c2410800000000000000
+      internalID: 1453567012476693651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_126
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 235
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00de9ef9e7dfc8610800000000000000
+      internalID: 1624952285864520960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_127
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 210
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6800b255cd289e0800000000000000
+      internalID: -1620490657548171571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_128
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 184
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77553a8dde335d5e0800000000000000
+      internalID: -1885543772349835913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_129
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 187
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd8e3ea7c74971c0800000000000000
+      internalID: -4505491029260071458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_130
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 174
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b72b55a6b0d62710800000000000000
+      internalID: 1668250194864187320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_131
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 159
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57db87f338457d200800000000000000
+      internalID: 204725230750973301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_132
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 160
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d2f483b036191f0800000000000000
+      internalID: -1039941139105370836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_133
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 146
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ee47438bc108cf0800000000000000
+      internalID: -252170001653109216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_134
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 95
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45085b572cd155020800000000000000
+      internalID: 2329801103269789780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_135
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18040aff1f0acc550800000000000000
+      internalID: 6182493349709103233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_136
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 58
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db80ddf68cedb0f0800000000000000
+      internalID: -1099462669480457255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_137
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 46
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f6a7a49e8f594f0800000000000000
+      internalID: -822477676064641264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_138
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1d4271ec7aa3b20800000000000000
+      internalID: 3114986595873509886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_139
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 67
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a991223f5a9765c0800000000000000
+      internalID: -4222236391982917216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_140
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc251a80b1464fff0800000000000000
+      internalID: -3267632448843060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_141
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 34
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139fcba8a45ace5a0800000000000000
+      internalID: -6490631223373924047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_142
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 51
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ff9bc7482fed880800000000000000
+      internalID: -8584157188879417488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_143
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 44
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6494a27e25ccc650800000000000000
+      internalID: 6254590785793332333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_144
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466e1db060384fa50800000000000000
+      internalID: 6554007419722262116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_145
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 56
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52554f3725d223140800000000000000
+      internalID: 4697867193456809253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_146
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcf582c2488a9310800000000000000
+      internalID: 1412591253446851767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_147
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 51
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29b54f2ee0ecc0b0800000000000000
+      internalID: -5706939314185324243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_148
+      rect:
+        serializedVersion: 2
+        x: 3381
+        y: 33
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95004102a5bd8a60800000000000000
+      internalID: 7677992647146866075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_149
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 51
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdde5812b12a60a0800000000000000
+      internalID: -6887655631312986688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_150
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 44
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688bfd23e16ff0f10800000000000000
+      internalID: 2238278149389400198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_151
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d7809ca9be61f50800000000000000
+      internalID: 6851922933121056083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_152
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb9a785cc5a0b040800000000000000
+      internalID: 4661407911404805065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_153
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae2d960ea1a1fe30800000000000000
+      internalID: 4535584068546145961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_154
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45669b055d7964fc0800000000000000
+      internalID: -3510951917050567084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_155
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 35
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900b477bb1810e050800000000000000
+      internalID: 5827684425138483209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_156
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 35
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733897cface4d1010800000000000000
+      internalID: 1161170912657638199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_157
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18ec77d8caf7e7d0800000000000000
+      internalID: -2889064895419193313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_158
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83e4d5f487eaf490800000000000000
+      internalID: -7711596853672483956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_159
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33790cc1cc9264a70800000000000000
+      internalID: 8810775677629404979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_160
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 24
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc93a6ed4e03b9f0800000000000000
+      internalID: -454003409689535287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_161
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 30
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e9b5adcd32d6880800000000000000
+      internalID: -8616191080626676069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_162
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3545d532967819a10800000000000000
+      internalID: 1914460202243806291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_163
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 21
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205808db9acdbadd0800000000000000
+      internalID: -2473640948723055358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_164
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 13
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6286a83632db828e0800000000000000
+      internalID: -1717915298150324186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_165
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 6
+        width: 55
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8313b7935e9edbf0800000000000000
+      internalID: -297626443495304306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_166
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 13
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897e1da7038bb0e10800000000000000
+      internalID: 2165026564240172952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_167
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41344ec1017778df0800000000000000
+      internalID: -178042749169941740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_168
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 19
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5ecfbbfcf959e80800000000000000
+      internalID: -8172450234232937006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_169
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a17d1ff5888b3a0800000000000000
+      internalID: -6649414904151860724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_170
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 6
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8eea49adbc87ebc0800000000000000
+      internalID: -3753877018173051252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_171
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 6
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46516f9c604441130800000000000000
+      internalID: 3536526403341522276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_172
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 6
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac36bc8d4beed00e0800000000000000
+      internalID: -2301921374017723446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_173
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 9
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230192dc44d67ee90800000000000000
+      internalID: -6996503353829552078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DracDesign_174
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 6
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e6c3291fc2da590800000000000000
+      internalID: -7661417975035171299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DracDesign_0: 5665309092960251610
+      DracDesign_1: -335393602230677822
+      DracDesign_10: 3322652811700135802
+      DracDesign_100: 6871762864682639085
+      DracDesign_101: 5421799018221862584
+      DracDesign_102: 8923745929562692831
+      DracDesign_103: 988139194395592862
+      DracDesign_104: -8780646630095219172
+      DracDesign_105: 6786007855481685328
+      DracDesign_106: -7824124826034251557
+      DracDesign_107: 9164833058190137602
+      DracDesign_108: -2291146558485713219
+      DracDesign_109: 6063944339123343687
+      DracDesign_11: 2762045692001027773
+      DracDesign_110: -621510790023596670
+      DracDesign_111: 2861193180764163305
+      DracDesign_112: -3229817321724271889
+      DracDesign_113: 5640289242056610903
+      DracDesign_114: -867104541811427342
+      DracDesign_115: -8707773980155877769
+      DracDesign_116: -354709495153076919
+      DracDesign_117: 4006433556590002069
+      DracDesign_118: -5001616481455291769
+      DracDesign_119: -2998780523113881452
+      DracDesign_12: -8662799779409766402
+      DracDesign_120: -9196826896151788557
+      DracDesign_121: -1695694527296162946
+      DracDesign_122: 5504974340350894444
+      DracDesign_123: 4126801395709956549
+      DracDesign_124: 6125199217955158616
+      DracDesign_125: 1453567012476693651
+      DracDesign_126: 1624952285864520960
+      DracDesign_127: -1620490657548171571
+      DracDesign_128: -1885543772349835913
+      DracDesign_129: -4505491029260071458
+      DracDesign_13: 1096054396970485704
+      DracDesign_130: 1668250194864187320
+      DracDesign_131: 204725230750973301
+      DracDesign_132: -1039941139105370836
+      DracDesign_133: -252170001653109216
+      DracDesign_134: 2329801103269789780
+      DracDesign_135: 6182493349709103233
+      DracDesign_136: -1099462669480457255
+      DracDesign_137: -822477676064641264
+      DracDesign_138: 3114986595873509886
+      DracDesign_139: -4222236391982917216
+      DracDesign_14: 7029728053659800070
+      DracDesign_140: -3267632448843060
+      DracDesign_141: -6490631223373924047
+      DracDesign_142: -8584157188879417488
+      DracDesign_143: 6254590785793332333
+      DracDesign_144: 6554007419722262116
+      DracDesign_145: 4697867193456809253
+      DracDesign_146: 1412591253446851767
+      DracDesign_147: -5706939314185324243
+      DracDesign_148: 7677992647146866075
+      DracDesign_149: -6887655631312986688
+      DracDesign_15: -8810409507873627848
+      DracDesign_150: 2238278149389400198
+      DracDesign_151: 6851922933121056083
+      DracDesign_152: 4661407911404805065
+      DracDesign_153: 4535584068546145961
+      DracDesign_154: -3510951917050567084
+      DracDesign_155: 5827684425138483209
+      DracDesign_156: 1161170912657638199
+      DracDesign_157: -2889064895419193313
+      DracDesign_158: -7711596853672483956
+      DracDesign_159: 8810775677629404979
+      DracDesign_16: 1144481398138451750
+      DracDesign_160: -454003409689535287
+      DracDesign_161: -8616191080626676069
+      DracDesign_162: 1914460202243806291
+      DracDesign_163: -2473640948723055358
+      DracDesign_164: -1717915298150324186
+      DracDesign_165: -297626443495304306
+      DracDesign_166: 2165026564240172952
+      DracDesign_167: -178042749169941740
+      DracDesign_168: -8172450234232937006
+      DracDesign_169: -6649414904151860724
+      DracDesign_17: 3273203285307275773
+      DracDesign_170: -3753877018173051252
+      DracDesign_171: 3536526403341522276
+      DracDesign_172: -2301921374017723446
+      DracDesign_173: -6996503353829552078
+      DracDesign_174: -7661417975035171299
+      DracDesign_18: -3439198723939082100
+      DracDesign_19: -9090398215179117411
+      DracDesign_2: 2593114613740327616
+      DracDesign_20: -7842434203739988037
+      DracDesign_21: 7580920665534208094
+      DracDesign_22: 1320030945560393263
+      DracDesign_23: -4001401030557944811
+      DracDesign_24: -6043034639368628916
+      DracDesign_25: 8335350143607683903
+      DracDesign_26: -3639111819529389791
+      DracDesign_27: 6719477958339924419
+      DracDesign_28: 7466956143216409844
+      DracDesign_29: -106779646645127879
+      DracDesign_3: 7153229182834227051
+      DracDesign_30: 7313273383740471192
+      DracDesign_31: -3577733046212866173
+      DracDesign_32: -4306046820501637359
+      DracDesign_33: -6658941306104455252
+      DracDesign_34: -3180914021462616610
+      DracDesign_35: -7825105784147268666
+      DracDesign_36: -6938575587452217183
+      DracDesign_37: -9069467820871508523
+      DracDesign_38: 8764179961500079826
+      DracDesign_39: 3343992030750462839
+      DracDesign_4: -6185838443514539029
+      DracDesign_40: 6467136683285080730
+      DracDesign_41: 4723560342549984238
+      DracDesign_42: 7437730321694979418
+      DracDesign_43: 1364732809722104826
+      DracDesign_44: -3997931543722754435
+      DracDesign_45: 5559186376439991526
+      DracDesign_46: -3362452322647814389
+      DracDesign_47: 5560506318001122951
+      DracDesign_48: -6121930886215428036
+      DracDesign_49: 1396671031618907479
+      DracDesign_5: -4802971317974500767
+      DracDesign_50: -1192572319619390769
+      DracDesign_51: -1557089098985525692
+      DracDesign_52: 2997732806745451533
+      DracDesign_53: -2990911585803527132
+      DracDesign_54: 1841167768784197057
+      DracDesign_55: -8909128929894767899
+      DracDesign_56: -3803478844695128910
+      DracDesign_57: 5635672342377651729
+      DracDesign_58: -61381686829652878
+      DracDesign_59: 4397400047228327214
+      DracDesign_6: -1401757038229325094
+      DracDesign_60: -626155457691044435
+      DracDesign_61: 2921237213935307522
+      DracDesign_62: 5153050584984331091
+      DracDesign_63: -1090689102910923753
+      DracDesign_64: 191837016072860754
+      DracDesign_65: 6827398256346319177
+      DracDesign_66: -494821747586578283
+      DracDesign_67: -1952492326741643181
+      DracDesign_68: -8437293581188837986
+      DracDesign_69: -3373813754640177402
+      DracDesign_7: 2967955757478995260
+      DracDesign_70: -3189708690781812637
+      DracDesign_71: -1362008761085133083
+      DracDesign_72: 8925043979152548468
+      DracDesign_73: -2501818577618255110
+      DracDesign_74: -7942257366075796293
+      DracDesign_75: 542199795497149798
+      DracDesign_76: -7390470703141524075
+      DracDesign_77: -8619371838659160619
+      DracDesign_78: -4136401811333212772
+      DracDesign_79: 1617156200666917855
+      DracDesign_8: 1307374580633294951
+      DracDesign_80: -3103329993631726963
+      DracDesign_81: -3087446771657682928
+      DracDesign_82: 198507856540855643
+      DracDesign_83: 5771986358270651051
+      DracDesign_84: -2659975622284947340
+      DracDesign_85: -8985911168981544126
+      DracDesign_86: 3338722042187054549
+      DracDesign_87: 5869879936525451364
+      DracDesign_88: 6476315413216215221
+      DracDesign_89: -8414305744968822723
+      DracDesign_9: -1159304161269235896
+      DracDesign_90: 8168877545170190515
+      DracDesign_91: 5834224835199524341
+      DracDesign_92: -6562674665051089945
+      DracDesign_93: -8511792920246688374
+      DracDesign_94: 8287592576884271091
+      DracDesign_95: -3444504661634141515
+      DracDesign_96: 4546438212442866732
+      DracDesign_97: -2462021253242055531
+      DracDesign_98: 315782303261489987
+      DracDesign_99: -55440274772498003
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
