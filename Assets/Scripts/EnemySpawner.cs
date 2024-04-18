@@ -6,11 +6,41 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
 
+    // Time to wait between spawns.
+    private float ttw = 10;
+
+    // Time to increase rate.
+    private float tti = 30;
+
+    private float internalCounter = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnEnemy", 0, 5f);
+        StartCoroutine(SpawnEnemyLoop());
     }
+
+
+    void Update()
+    {
+        internalCounter += Time.deltaTime;
+    }
+
+    private IEnumerator SpawnEnemyLoop()
+    {
+        while (true)
+        {
+            if (internalCounter >= tti)
+            {
+                internalCounter = 0;
+                ttw = ttw / 1.5f;
+            }
+            SpawnEnemy();
+            yield return new WaitForSeconds(ttw);
+        }
+        yield return 0;
+    }
+
 
     void SpawnEnemy()
     {
