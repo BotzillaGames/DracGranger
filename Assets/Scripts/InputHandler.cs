@@ -18,7 +18,7 @@ public class InputHandler : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext context)
     {
-        if (!context.started) return;
+        if (!context.canceled) return;
 
         var rayHit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
 
@@ -31,6 +31,13 @@ public class InputHandler : MonoBehaviour
             bool shouldAddPoints = rose.ClickRose(cursorStatus.currentCursor);
             if (shouldAddPoints) gameController.AddPoints(1);
             cursorStatus.OnCursorChange("Default");
+        }
+
+        // If UI button send click.
+        UIButton uiButton = rayHit.collider.GetComponent<UIButton>();
+        if (uiButton)
+        {
+            uiButton.OnClick();
         }
     }
 }

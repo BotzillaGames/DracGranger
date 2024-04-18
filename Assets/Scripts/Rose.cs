@@ -42,6 +42,7 @@ public class Rose : MonoBehaviour
     {
         if (!isDead)
         {
+            Debug.Log("Click rose | currLifeStep: " + roseLifeStep + " | Current Cursor: " + clickCursorType);
             if (roseLifeStep == 0 && clickCursorType == CustomCursor.CursorType.Seed)
             {
                 RoseNextStep();

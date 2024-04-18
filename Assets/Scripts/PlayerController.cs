@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     private int life = 3;
 
+    private int moveAnim = -1;
+
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
     /// any of the Update methods is called the first time.
@@ -39,10 +41,11 @@ public class PlayerController : MonoBehaviour
         {
             sjAnimator.SetBool("idleAnim", false);
             Vector3Int cellPosition = grid.LocalToCell(new Vector2(transform.localPosition.x + destination.normalized.x * 2, transform.localPosition.y + destination.normalized.y * 2));
-            LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), .5f).setDelay(1).setEaseOutExpo().setOnComplete(() =>
+            moveAnim = LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), .5f).setDelay(1).setEaseOutExpo().setOnComplete(() =>
             {
                 sjAnimator.SetBool("idleAnim", true);
-            });
+                moveAnim = -1;
+            }).id;
         }
 
     }
@@ -75,6 +78,11 @@ public class PlayerController : MonoBehaviour
 
     private void GoBack()
     {
+        if (moveAnim != -1)
+        {
+            sjAnimator.SetBool("idleAnim", true);
+            LeanTween.cancel(moveAnim);
+        }
         Vector2 backPos = new Vector2(transform.localPosition.x - destination.normalized.x * 2, transform.localPosition.y - destination.normalized.y * 2);
         Vector3Int cellPosition = grid.LocalToCell(backPos);
         LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), 3).setDelay(1).setEaseOutElastic().setOnComplete(() =>

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class CustomCursor : MonoBehaviour
 {
@@ -12,12 +13,12 @@ public class CustomCursor : MonoBehaviour
 
     public CursorType currentCursor = CursorType.Default;
 
-    private SpriteRenderer srCursor;
+    private Image imgCursor;
 
     // Start is called before the first frame update
     void Start()
     {
-        srCursor = GetComponent<SpriteRenderer>();
+        imgCursor = GetComponent<Image>();
         Cursor.visible = false;
     }
 
@@ -35,23 +36,23 @@ public class CustomCursor : MonoBehaviour
         {
             case "Seed":
                 currentCursor = CursorType.Seed;
-                srCursor.sprite = cursors[(int)CursorType.Seed];
+                imgCursor.sprite = cursors[(int)CursorType.Seed];
                 break;
             case "Water":
                 currentCursor = CursorType.Water;
-                srCursor.sprite = cursors[(int)CursorType.Water];
+                imgCursor.sprite = cursors[(int)CursorType.Water];
                 break;
             case "Cut":
                 currentCursor = CursorType.Cut;
-                srCursor.sprite = cursors[(int)CursorType.Cut];
+                imgCursor.sprite = cursors[(int)CursorType.Cut];
                 break;
             case "Fire":
                 currentCursor = CursorType.Fire;
-                srCursor.sprite = cursors[(int)CursorType.Fire];
+                imgCursor.sprite = cursors[(int)CursorType.Fire];
                 break;
             case "Default":
                 currentCursor = CursorType.Default;
-                srCursor.sprite = cursors[(int)CursorType.Default];
+                imgCursor.sprite = cursors[(int)CursorType.Default];
                 break;
         }
     }

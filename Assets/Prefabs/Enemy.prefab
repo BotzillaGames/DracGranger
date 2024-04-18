@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1885784583154055515}
   - component: {fileID: 7758373889297567709}
   - component: {fileID: 2155887883873400476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: StJordiAnimation-1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: -7224970676885325973, guid: f2875f43a3c6047c990e3cfb00d12dfb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 7477301875645035590}
   - component: {fileID: 2623339215490332703}
   - component: {fileID: 4995669129902178137}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.08504152, y: -1.5945225}
+  m_Offset: {x: 0.935452, y: -1.7858629}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -198,7 +198,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.7623053, y: 14.2239}
+  m_Size: {x: 3.2961035, y: 11.630144}
   m_EdgeRadius: 0
 --- !u!50 &4995669129902178137
 Rigidbody2D:
