@@ -7,7 +7,7 @@ using UnityEngine;
 public class RoseSpawner : MonoBehaviour
 {
 
-    private const int LIFESTART = 2;
+    private const int LIFESTART = 5;
 
     public GameObject rose;
 
