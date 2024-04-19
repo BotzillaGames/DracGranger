@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b4cc6077448d284fb95945a00dd0c96
+guid: a11434fafca764343b96ad35264153e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4154249914132590372
-    second: Heat_0
+      213: -7270542191967531663
+    second: cursor_animacio_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,29 +94,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heat_0
+      name: cursor_animacio_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 4
-        width: 307
-        height: 301
+        x: 13
+        y: 16
+        width: 97
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd01ee796b32956c0800000000000000
-      internalID: -4154249914132590372
+      spriteID: 17d094bb568d91b90800000000000000
+      internalID: -7270542191967531663
       vertices: []
       indices: 
       edges: []
@@ -140,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Heat_0: -4154249914132590372
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
