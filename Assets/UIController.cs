@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
@@ -11,6 +11,10 @@ public class UIController : MonoBehaviour
     public TMP_Text pointsText;
 
     public Timer timer;
+
+    public MouseController mouseController;
+
+    public Slider slider;
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -25,6 +29,7 @@ public class UIController : MonoBehaviour
     void Update()
     {
         UpdateTimerUI();
+        UpdateSliderValue();
     }
 
 
@@ -44,5 +49,12 @@ public class UIController : MonoBehaviour
     public void UpdatePoints(int numPoints)
     {
         pointsText.text = numPoints.ToString();
+    }
+
+    private void UpdateSliderValue()
+    {
+        float energyValue = mouseController.GetFireEnergyValue();
+
+        slider.value = energyValue;
     }
 }
