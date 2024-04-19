@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 16216b234ec6d4a40b5fb812b89ce936
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4534843334614780392
+    second: TestTrencat_0
+  - first:
+      213: -4110562511479120656
+    second: TestTrencat_1
+  - first:
+      213: 3127528056768130949
+    second: TestTrencat_2
+  - first:
+      213: -7981202711929289184
+    second: TestTrencat_3
+  - first:
+      213: 873901069855664490
+    second: TestTrencat_4
+  - first:
+      213: 4666945010657095445
+    second: TestTrencat_5
+  - first:
+      213: -4555485920253140111
+    second: TestTrencat_6
+  - first:
+      213: 9031314020484972470
+    second: TestTrencat_7
+  - first:
+      213: 2461369464825887156
+    second: TestTrencat_8
+  - first:
+      213: 6033043826317511522
+    second: TestTrencat_9
+  - first:
+      213: 2472599631412723273
+    second: TestTrencat_10
+  - first:
+      213: -8961809564728081235
+    second: TestTrencat_11
+  - first:
+      213: 5957465377742107166
+    second: TestTrencat_12
+  - first:
+      213: 7435981734360239781
+    second: TestTrencat_13
+  - first:
+      213: -4413079989536021152
+    second: TestTrencat_14
+  - first:
+      213: -5645598331941841162
+    second: TestTrencat_15
+  - first:
+      213: -7763974082866715712
+    second: TestTrencat_16
+  - first:
+      213: -7228902683664971892
+    second: TestTrencat_17
+  - first:
+      213: 5874508148658106569
+    second: TestTrencat_18
+  - first:
+      213: -7927523777455229604
+    second: TestTrencat_19
+  - first:
+      213: 6767889225610829061
+    second: TestTrencat_20
+  - first:
+      213: -8106787639839593613
+    second: TestTrencat_21
+  - first:
+      213: 7235210150188709560
+    second: TestTrencat_22
+  - first:
+      213: 3811117086346724709
+    second: TestTrencat_23
+  - first:
+      213: -6808186443342187736
+    second: TestTrencat_24
+  - first:
+      213: -6023435446648609873
+    second: TestTrencat_25
+  - first:
+      213: -8852008032689145269
+    second: TestTrencat_26
+  - first:
+      213: -2338760946442286979
+    second: TestTrencat_27
+  - first:
+      213: 3019800119516386879
+    second: TestTrencat_28
+  - first:
+      213: 3189113538429216063
+    second: TestTrencat_29
+  - first:
+      213: 5640202462157209968
+    second: TestTrencat_30
+  - first:
+      213: 2653691899921443406
+    second: TestTrencat_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TestTrencat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 845
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e903c77cfffeee30800000000000000
+      internalID: 4534843334614780392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 693
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcdf3cac2954f6c0800000000000000
+      internalID: -4110562511479120656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 683
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f6bb08236376b20800000000000000
+      internalID: 3127528056768130949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 431
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02602137b621d3190800000000000000
+      internalID: -7981202711929289184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 388
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69a4959468b02c00800000000000000
+      internalID: 873901069855664490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_5
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f6f7ab2c154c040800000000000000
+      internalID: 4666945010657095445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 363
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173a40801b9a7c0c0800000000000000
+      internalID: -4555485920253140111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 202
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bff20e604ca55d70800000000000000
+      internalID: 9031314020484972470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 185
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9b0f3cc7a882220800000000000000
+      internalID: 2461369464825887156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_9
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bc406456da9b350800000000000000
+      internalID: 6033043826317511522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 102
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94efd1ea340705220800000000000000
+      internalID: 2472599631412723273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 87
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da44fadbea141a380800000000000000
+      internalID: -8961809564728081235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 90
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12b102723b2da250800000000000000
+      internalID: 5957465377742107166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aec5d86df9e13760800000000000000
+      internalID: 7435981734360239781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 73
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065225a812791c2c0800000000000000
+      internalID: -4413079989536021152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_15
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f691109a3ec6a1b0800000000000000
+      internalID: -5645598331941841162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_16
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3e369f4b2d04490800000000000000
+      internalID: -7763974082866715712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8708404f47cdab90800000000000000
+      internalID: -7228902683664971892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_18
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c077e66902768150800000000000000
+      internalID: 5874508148658106569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_19
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 70
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5571505027cbf190800000000000000
+      internalID: -7927523777455229604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_20
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 55
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d1ab3946f5ced50800000000000000
+      internalID: 6767889225610829061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 50
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b65d9d797ee7f80800000000000000
+      internalID: -8106787639839593613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 52
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b67c4d3c41a86460800000000000000
+      internalID: 7235210150188709560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_23
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5654e114ccec3e430800000000000000
+      internalID: 3811117086346724709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_24
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 28
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82375f740867481a0800000000000000
+      internalID: -6808186443342187736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 43
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa36303ff55786ca0800000000000000
+      internalID: -6023435446648609873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 44
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab8ae1899572580800000000000000
+      internalID: -8852008032689145269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 38
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7840cc7f4d0b8fd0800000000000000
+      internalID: -2338760946442286979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_28
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36d478853c78e920800000000000000
+      internalID: 3019800119516386879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_29
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 7
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f356676ddd1024c20800000000000000
+      internalID: 3189113538429216063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_30
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0710a2a9146064e40800000000000000
+      internalID: 5640202462157209968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTrencat_31
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 4
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a262e19bec3d420800000000000000
+      internalID: 2653691899921443406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TestTrencat_0: 4534843334614780392
+      TestTrencat_1: -4110562511479120656
+      TestTrencat_10: 2472599631412723273
+      TestTrencat_11: -8961809564728081235
+      TestTrencat_12: 5957465377742107166
+      TestTrencat_13: 7435981734360239781
+      TestTrencat_14: -4413079989536021152
+      TestTrencat_15: -5645598331941841162
+      TestTrencat_16: -7763974082866715712
+      TestTrencat_17: -7228902683664971892
+      TestTrencat_18: 5874508148658106569
+      TestTrencat_19: -7927523777455229604
+      TestTrencat_2: 3127528056768130949
+      TestTrencat_20: 6767889225610829061
+      TestTrencat_21: -8106787639839593613
+      TestTrencat_22: 7235210150188709560
+      TestTrencat_23: 3811117086346724709
+      TestTrencat_24: -6808186443342187736
+      TestTrencat_25: -6023435446648609873
+      TestTrencat_26: -8852008032689145269
+      TestTrencat_27: -2338760946442286979
+      TestTrencat_28: 3019800119516386879
+      TestTrencat_29: 3189113538429216063
+      TestTrencat_3: -7981202711929289184
+      TestTrencat_30: 5640202462157209968
+      TestTrencat_31: 2653691899921443406
+      TestTrencat_4: 873901069855664490
+      TestTrencat_5: 4666945010657095445
+      TestTrencat_6: -4555485920253140111
+      TestTrencat_7: 9031314020484972470
+      TestTrencat_8: 2461369464825887156
+      TestTrencat_9: 6033043826317511522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

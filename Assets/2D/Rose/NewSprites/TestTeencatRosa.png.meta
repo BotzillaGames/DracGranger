@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 97086df7e19bacd42a65975eb843dfad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2967139111238071824
+    second: TestTeencatRosa_0
+  - first:
+      213: -7096369610177870385
+    second: TestTeencatRosa_1
+  - first:
+      213: -5884881421165893292
+    second: TestTeencatRosa_2
+  - first:
+      213: -5807027184019294669
+    second: TestTeencatRosa_3
+  - first:
+      213: 6092444219060343503
+    second: TestTeencatRosa_4
+  - first:
+      213: 3976709548496661618
+    second: TestTeencatRosa_5
+  - first:
+      213: 1618486860377394747
+    second: TestTeencatRosa_6
+  - first:
+      213: -8323000209218042058
+    second: TestTeencatRosa_7
+  - first:
+      213: 3924811837085098098
+    second: TestTeencatRosa_8
+  - first:
+      213: -278121679447661735
+    second: TestTeencatRosa_9
+  - first:
+      213: 1929686252604679487
+    second: TestTeencatRosa_10
+  - first:
+      213: 7333411056871751904
+    second: TestTeencatRosa_11
+  - first:
+      213: -436646826571283816
+    second: TestTeencatRosa_12
+  - first:
+      213: 4701989268229227290
+    second: TestTeencatRosa_13
+  - first:
+      213: 93000038407605169
+    second: TestTeencatRosa_14
+  - first:
+      213: -7653461540907876865
+    second: TestTeencatRosa_15
+  - first:
+      213: -3569936539117605535
+    second: TestTeencatRosa_16
+  - first:
+      213: 8455777781737107545
+    second: TestTeencatRosa_17
+  - first:
+      213: -6296031762723934612
+    second: TestTeencatRosa_18
+  - first:
+      213: -3435786038588539437
+    second: TestTeencatRosa_19
+  - first:
+      213: -3270442124206440660
+    second: TestTeencatRosa_20
+  - first:
+      213: 1189480622821675824
+    second: TestTeencatRosa_21
+  - first:
+      213: -6684964291148906499
+    second: TestTeencatRosa_22
+  - first:
+      213: 4941306444031827723
+    second: TestTeencatRosa_23
+  - first:
+      213: 3030889621328395346
+    second: TestTeencatRosa_24
+  - first:
+      213: -1744317737245995457
+    second: TestTeencatRosa_25
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TestTeencatRosa_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 688
+        width: 101
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01673841d456d2920800000000000000
+      internalID: 2967139111238071824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 713
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5887e0071a48d90800000000000000
+      internalID: -7096369610177870385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 695
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4596c12e683b45ea0800000000000000
+      internalID: -5884881421165893292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 690
+        width: 173
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363e770b8b496fa0800000000000000
+      internalID: -5807027184019294669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 856
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc259f2fcb5bc8450800000000000000
+      internalID: 6092444219060343503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 451
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c2c0dc34c103730800000000000000
+      internalID: 3976709548496661618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e8e627935067610800000000000000
+      internalID: 1618486860377394747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 396
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378e082863ce7c80800000000000000
+      internalID: -8323000209218042058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 383
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270a4bf329bb77630800000000000000
+      internalID: 3924811837085098098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 220
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953ef2c5ec9e32cf0800000000000000
+      internalID: -278121679447661735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 121
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35e47e3c6f97ca10800000000000000
+      internalID: 1929686252604679487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 90
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e043cc808285c560800000000000000
+      internalID: 7333411056871751904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892cae15608b0f9f0800000000000000
+      internalID: -436646826571283816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_13
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 82
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a138086c352d04140800000000000000
+      internalID: 4701989268229227290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 75
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb026dca076a4100800000000000000
+      internalID: 93000038407605169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd7210474179c590800000000000000
+      internalID: -7653461540907876865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_16
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 50
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d253bc1a9057ec0800000000000000
+      internalID: -3569936539117605535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 67
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950b4148715f85570800000000000000
+      internalID: 8455777781737107545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_18
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 72
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e6348387000a8a0800000000000000
+      internalID: -6296031762723934612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddfead2dc2a150d0800000000000000
+      internalID: -3435786038588539437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_20
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 27
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f7330373e0d92d0800000000000000
+      internalID: -3270442124206440660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0331f760352e18010800000000000000
+      internalID: 1189480622821675824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_22
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 21
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfff5e9456c3a33a0800000000000000
+      internalID: -6684964291148906499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f9ddad70c039440800000000000000
+      internalID: 4941306444031827723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c72b06d02ef0a20800000000000000
+      internalID: 3030889621328395346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TestTeencatRosa_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e0a008240fac7e0800000000000000
+      internalID: -1744317737245995457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TestTeencatRosa_0: 2967139111238071824
+      TestTeencatRosa_1: -7096369610177870385
+      TestTeencatRosa_10: 1929686252604679487
+      TestTeencatRosa_11: 7333411056871751904
+      TestTeencatRosa_12: -436646826571283816
+      TestTeencatRosa_13: 4701989268229227290
+      TestTeencatRosa_14: 93000038407605169
+      TestTeencatRosa_15: -7653461540907876865
+      TestTeencatRosa_16: -3569936539117605535
+      TestTeencatRosa_17: 8455777781737107545
+      TestTeencatRosa_18: -6296031762723934612
+      TestTeencatRosa_19: -3435786038588539437
+      TestTeencatRosa_2: -5884881421165893292
+      TestTeencatRosa_20: -3270442124206440660
+      TestTeencatRosa_21: 1189480622821675824
+      TestTeencatRosa_22: -6684964291148906499
+      TestTeencatRosa_23: 4941306444031827723
+      TestTeencatRosa_24: 3030889621328395346
+      TestTeencatRosa_25: -1744317737245995457
+      TestTeencatRosa_3: -5807027184019294669
+      TestTeencatRosa_4: 6092444219060343503
+      TestTeencatRosa_5: 3976709548496661618
+      TestTeencatRosa_6: 1618486860377394747
+      TestTeencatRosa_7: -8323000209218042058
+      TestTeencatRosa_8: 3924811837085098098
+      TestTeencatRosa_9: -278121679447661735
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

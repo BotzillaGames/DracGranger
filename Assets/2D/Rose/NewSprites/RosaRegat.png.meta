@@ -1,0 +1,1074 @@
+fileFormatVersion: 2
+guid: b1d5cf0937bf3b9438e02b14a14eac7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1035977719896034099
+    second: RosaRegat_0
+  - first:
+      213: -7161211785594533054
+    second: RosaRegat_1
+  - first:
+      213: -2413697544535870775
+    second: RosaRegat_2
+  - first:
+      213: -3434970851831353547
+    second: RosaRegat_3
+  - first:
+      213: 7031761370724721518
+    second: RosaRegat_4
+  - first:
+      213: -6495911550860061498
+    second: RosaRegat_5
+  - first:
+      213: 4897114504163138636
+    second: RosaRegat_6
+  - first:
+      213: 8239453306708828046
+    second: RosaRegat_7
+  - first:
+      213: 5001502181877837458
+    second: RosaRegat_8
+  - first:
+      213: -3014752453757658749
+    second: RosaRegat_9
+  - first:
+      213: -966303074141293614
+    second: RosaRegat_10
+  - first:
+      213: -8328828247089736791
+    second: RosaRegat_11
+  - first:
+      213: -3505006058552538060
+    second: RosaRegat_12
+  - first:
+      213: 6203374525465774936
+    second: RosaRegat_13
+  - first:
+      213: -3796588240758763229
+    second: RosaRegat_14
+  - first:
+      213: 3736190706041811993
+    second: RosaRegat_15
+  - first:
+      213: 4615155328711871675
+    second: RosaRegat_16
+  - first:
+      213: 1261762593331354886
+    second: RosaRegat_17
+  - first:
+      213: -3334429903529213152
+    second: RosaRegat_18
+  - first:
+      213: 220659350505207365
+    second: RosaRegat_19
+  - first:
+      213: 3381854453427294032
+    second: RosaRegat_20
+  - first:
+      213: -951812722897596588
+    second: RosaRegat_21
+  - first:
+      213: 650691114422812013
+    second: RosaRegat_22
+  - first:
+      213: -1737260862127366520
+    second: RosaRegat_23
+  - first:
+      213: -1295603341699007206
+    second: RosaRegat_24
+  - first:
+      213: -4692468165894637186
+    second: RosaRegat_25
+  - first:
+      213: -7398109493671288005
+    second: RosaRegat_26
+  - first:
+      213: 7794493145767313985
+    second: RosaRegat_27
+  - first:
+      213: 8227462138447080982
+    second: RosaRegat_28
+  - first:
+      213: -6986032826254600364
+    second: RosaRegat_29
+  - first:
+      213: 1377162471031160472
+    second: RosaRegat_30
+  - first:
+      213: -2996316598173681459
+    second: RosaRegat_31
+  - first:
+      213: -6118482736950828107
+    second: RosaRegat_32
+  - first:
+      213: -5407892121874021165
+    second: RosaRegat_33
+  - first:
+      213: -3883321660618925247
+    second: RosaRegat_34
+  - first:
+      213: -4657555994748657377
+    second: RosaRegat_35
+  - first:
+      213: -9186069753352453188
+    second: RosaRegat_36
+  - first:
+      213: 8783549445025323294
+    second: RosaRegat_37
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RosaRegat_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 765
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b4f955f38806e00800000000000000
+      internalID: 1035977719896034099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 724
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b0c4e92d34e9c90800000000000000
+      internalID: -7161211785594533054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 741
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f4be1fd2d08ed0800000000000000
+      internalID: -2413697544535870775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_3
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 743
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f65c2a5388450d0800000000000000
+      internalID: -3434970851831353547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 644
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e636c57f5b5d59160800000000000000
+      internalID: 7031761370724721518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 724
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c411ae7cd2e9d5a0800000000000000
+      internalID: -6495911550860061498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_6
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 729
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c9e0d02bb06f340800000000000000
+      internalID: 4897114504163138636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 719
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f1cc1c02b685270800000000000000
+      internalID: 8239453306708828046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 720
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e6b2e3cb7e86540800000000000000
+      internalID: 5001502181877837458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_9
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 555
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389990cbd927926d0800000000000000
+      internalID: -3014752453757658749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_10
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 519
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3b07849700792f0800000000000000
+      internalID: -966303074141293614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_11
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 499
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a31af856de0a6c80800000000000000
+      internalID: -8328828247089736791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 484
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c42606f87bb5fc0800000000000000
+      internalID: -3505006058552538060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 467
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b48179340d61650800000000000000
+      internalID: 6203374525465774936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_14
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 426
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32116273c1fcf4bc0800000000000000
+      internalID: -3796588240758763229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 457
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914fcb6e6ad99d330800000000000000
+      internalID: 3736190706041811993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 424
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc4f1fb1535c0040800000000000000
+      internalID: 4615155328711871675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 434
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d146eb46ea28110800000000000000
+      internalID: 1261762593331354886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_18
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 422
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02383b75ba9b9b1d0800000000000000
+      internalID: -3334429903529213152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 393
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5463b3b9280ff0300800000000000000
+      internalID: 220659350505207365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_20
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 392
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f4b9225b2ceee20800000000000000
+      internalID: 3381854453427294032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 368
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fcdf61f5b7ac2f0800000000000000
+      internalID: -951812722897596588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_22
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 380
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dbcadfe18b70900800000000000000
+      internalID: 650691114422812013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 357
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e95b6437204e7e0800000000000000
+      internalID: -1737260862127366520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 361
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1db83800a7150ee0800000000000000
+      internalID: -1295603341699007206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_25
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 317
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79750c901101eeb0800000000000000
+      internalID: -4692468165894637186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 304
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b332744cc92a45990800000000000000
+      internalID: -7398109493671288005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_27
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 264
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1428da5183a9b2c60800000000000000
+      internalID: 7794493145767313985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 58
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2d155931dd2270800000000000000
+      internalID: 8227462138447080982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 52
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45750e97820ac0f90800000000000000
+      internalID: -6986032826254600364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ebfcb88f9ac1310800000000000000
+      internalID: 1377162471031160472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8304bdde1fa66d0800000000000000
+      internalID: -2996316598173681459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_32
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 43
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3afab2e58c61ba0800000000000000
+      internalID: -6118482736950828107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_33
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 42
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4c01474ce43f4b0800000000000000
+      internalID: -5407892121874021165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_34
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 12
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b9a3e368bab1ac0800000000000000
+      internalID: -3883321660618925247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_35
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 24
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11e383ef790d5fb0800000000000000
+      internalID: -4657555994748657377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_36
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3877daa36848080800000000000000
+      internalID: -9186069753352453188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaRegat_37
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1950d9deaf65e970800000000000000
+      internalID: 8783549445025323294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RosaRegat_0: 1035977719896034099
+      RosaRegat_1: -7161211785594533054
+      RosaRegat_10: -966303074141293614
+      RosaRegat_11: -8328828247089736791
+      RosaRegat_12: -3505006058552538060
+      RosaRegat_13: 6203374525465774936
+      RosaRegat_14: -3796588240758763229
+      RosaRegat_15: 3736190706041811993
+      RosaRegat_16: 4615155328711871675
+      RosaRegat_17: 1261762593331354886
+      RosaRegat_18: -3334429903529213152
+      RosaRegat_19: 220659350505207365
+      RosaRegat_2: -2413697544535870775
+      RosaRegat_20: 3381854453427294032
+      RosaRegat_21: -951812722897596588
+      RosaRegat_22: 650691114422812013
+      RosaRegat_23: -1737260862127366520
+      RosaRegat_24: -1295603341699007206
+      RosaRegat_25: -4692468165894637186
+      RosaRegat_26: -7398109493671288005
+      RosaRegat_27: 7794493145767313985
+      RosaRegat_28: 8227462138447080982
+      RosaRegat_29: -6986032826254600364
+      RosaRegat_3: -3434970851831353547
+      RosaRegat_30: 1377162471031160472
+      RosaRegat_31: -2996316598173681459
+      RosaRegat_32: -6118482736950828107
+      RosaRegat_33: -5407892121874021165
+      RosaRegat_34: -3883321660618925247
+      RosaRegat_35: -4657555994748657377
+      RosaRegat_36: -9186069753352453188
+      RosaRegat_37: 8783549445025323294
+      RosaRegat_4: 7031761370724721518
+      RosaRegat_5: -6495911550860061498
+      RosaRegat_6: 4897114504163138636
+      RosaRegat_7: 8239453306708828046
+      RosaRegat_8: 5001502181877837458
+      RosaRegat_9: -3014752453757658749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

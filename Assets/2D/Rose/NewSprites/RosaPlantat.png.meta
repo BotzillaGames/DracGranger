@@ -1,0 +1,974 @@
+fileFormatVersion: 2
+guid: 648103a4937b6f74380685d605f99fe7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1943378904340759674
+    second: RosaPlantat_0
+  - first:
+      213: -763673068200429937
+    second: RosaPlantat_1
+  - first:
+      213: -3034080882335138970
+    second: RosaPlantat_2
+  - first:
+      213: -8338886114576932319
+    second: RosaPlantat_3
+  - first:
+      213: -4659170635620740849
+    second: RosaPlantat_4
+  - first:
+      213: 2900655779589286360
+    second: RosaPlantat_5
+  - first:
+      213: 6016451274152778013
+    second: RosaPlantat_6
+  - first:
+      213: -8297175907760770469
+    second: RosaPlantat_7
+  - first:
+      213: -6022677591299294905
+    second: RosaPlantat_8
+  - first:
+      213: 8211440074740148040
+    second: RosaPlantat_9
+  - first:
+      213: 1793254420666141209
+    second: RosaPlantat_10
+  - first:
+      213: 3161992155855815854
+    second: RosaPlantat_11
+  - first:
+      213: 1997677285604602940
+    second: RosaPlantat_12
+  - first:
+      213: 3144867590354846657
+    second: RosaPlantat_13
+  - first:
+      213: -6044085270723312512
+    second: RosaPlantat_14
+  - first:
+      213: 1931603710228356035
+    second: RosaPlantat_15
+  - first:
+      213: 2959213780398720492
+    second: RosaPlantat_16
+  - first:
+      213: 714288355787771114
+    second: RosaPlantat_17
+  - first:
+      213: 7788759480112703938
+    second: RosaPlantat_18
+  - first:
+      213: -4675998640871894828
+    second: RosaPlantat_19
+  - first:
+      213: -4706535169049186418
+    second: RosaPlantat_20
+  - first:
+      213: 1482633860799856022
+    second: RosaPlantat_21
+  - first:
+      213: 1390401121015207090
+    second: RosaPlantat_22
+  - first:
+      213: 3007120156800333601
+    second: RosaPlantat_23
+  - first:
+      213: 6712995533629478449
+    second: RosaPlantat_24
+  - first:
+      213: 566205220864560412
+    second: RosaPlantat_25
+  - first:
+      213: -6029004333516204781
+    second: RosaPlantat_26
+  - first:
+      213: 3113577336901316074
+    second: RosaPlantat_27
+  - first:
+      213: 3084383290096037220
+    second: RosaPlantat_28
+  - first:
+      213: 2851395376614834851
+    second: RosaPlantat_29
+  - first:
+      213: -588860884159048530
+    second: RosaPlantat_30
+  - first:
+      213: 5619737453655403360
+    second: RosaPlantat_31
+  - first:
+      213: 4147190089640857939
+    second: RosaPlantat_32
+  - first:
+      213: 5013871064917129131
+    second: RosaPlantat_33
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RosaPlantat_0
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 748
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf7c6de2bb705e0800000000000000
+      internalID: -1943378904340759674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_1
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 759
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86716df363e665f0800000000000000
+      internalID: -763673068200429937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_2
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 752
+        width: 48
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3c944387c4e5d0800000000000000
+      internalID: -3034080882335138970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 12
+        width: 803
+        height: 746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12264369243564c80800000000000000
+      internalID: -8338886114576932319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 705
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0115e30efc475fb0800000000000000
+      internalID: -4659170635620740849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_5
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 706
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d96a1e2013314820800000000000000
+      internalID: 2900655779589286360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19925cae8abe7350800000000000000
+      internalID: 6016451274152778013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_7
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 699
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b527df2e8728adc80800000000000000
+      internalID: -8297175907760770469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 699
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74976e5e3a62b6ca0800000000000000
+      internalID: -6022677591299294905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 683
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8472b4ded35e4f170800000000000000
+      internalID: 8211440074740148040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 677
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a44bff46be2e810800000000000000
+      internalID: 1793254420666141209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 355
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea48b50ec17a1eb20800000000000000
+      internalID: 3161992155855815854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_12
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 362
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34345838ec29bb10800000000000000
+      internalID: 1997677285604602940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_13
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 335
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c34db44960d4ab20800000000000000
+      internalID: 3144867590354846657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_14
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 312
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084cd5e18781f1ca0800000000000000
+      internalID: -6044085270723312512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_15
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 279
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbdcf2275f6eca10800000000000000
+      internalID: 1931603710228356035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_16
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 277
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce54b13314d311920800000000000000
+      internalID: 2959213780398720492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_17
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 282
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec8de1a979a9e900800000000000000
+      internalID: 714288355787771114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_18
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 251
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9e2150b7b371c60800000000000000
+      internalID: 7788759480112703938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_19
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 254
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d01f98b2048b1fb0800000000000000
+      internalID: -4675998640871894828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_20
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 259
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fa0f533370faeb0800000000000000
+      internalID: -4706535169049186418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_21
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 252
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69df0fc14af539410800000000000000
+      internalID: 1482633860799856022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_22
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 249
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b49a61f372bb4310800000000000000
+      internalID: 1390401121015207090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 236
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1273007a9df6bb920800000000000000
+      internalID: 3007120156800333601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_24
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 237
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136d4c0fed9592d50800000000000000
+      internalID: 6712995533629478449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_25
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 229
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d8a9306a09bd700800000000000000
+      internalID: 566205220864560412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_26
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 210
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315d97f608ca45ca0800000000000000
+      internalID: -6029004333516204781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_27
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 214
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeda5ba6716a53b20800000000000000
+      internalID: 3113577336901316074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_28
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 75
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d2355b24eedca20800000000000000
+      internalID: 3084383290096037220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_29
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 78
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a28159dcf0329720800000000000000
+      internalID: 2851395376614834851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_30
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4d3915522f3d7f0800000000000000
+      internalID: -588860884159048530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 34
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ba61080715dfd40800000000000000
+      internalID: 5619737453655403360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_32
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351501de967cd8930800000000000000
+      internalID: 4147190089640857939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPlantat_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 34
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7befd3b29d49540800000000000000
+      internalID: 5013871064917129131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RosaPlantat_0: -1943378904340759674
+      RosaPlantat_1: -763673068200429937
+      RosaPlantat_10: 1793254420666141209
+      RosaPlantat_11: 3161992155855815854
+      RosaPlantat_12: 1997677285604602940
+      RosaPlantat_13: 3144867590354846657
+      RosaPlantat_14: -6044085270723312512
+      RosaPlantat_15: 1931603710228356035
+      RosaPlantat_16: 2959213780398720492
+      RosaPlantat_17: 714288355787771114
+      RosaPlantat_18: 7788759480112703938
+      RosaPlantat_19: -4675998640871894828
+      RosaPlantat_2: -3034080882335138970
+      RosaPlantat_20: -4706535169049186418
+      RosaPlantat_21: 1482633860799856022
+      RosaPlantat_22: 1390401121015207090
+      RosaPlantat_23: 3007120156800333601
+      RosaPlantat_24: 6712995533629478449
+      RosaPlantat_25: 566205220864560412
+      RosaPlantat_26: -6029004333516204781
+      RosaPlantat_27: 3113577336901316074
+      RosaPlantat_28: 3084383290096037220
+      RosaPlantat_29: 2851395376614834851
+      RosaPlantat_3: -8338886114576932319
+      RosaPlantat_30: -588860884159048530
+      RosaPlantat_31: 5619737453655403360
+      RosaPlantat_32: 4147190089640857939
+      RosaPlantat_33: 5013871064917129131
+      RosaPlantat_4: -4659170635620740849
+      RosaPlantat_5: 2900655779589286360
+      RosaPlantat_6: 6016451274152778013
+      RosaPlantat_7: -8297175907760770469
+      RosaPlantat_8: -6022677591299294905
+      RosaPlantat_9: 8211440074740148040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

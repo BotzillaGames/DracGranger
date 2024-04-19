@@ -1,0 +1,599 @@
+fileFormatVersion: 2
+guid: ae25de28221bcda44ade73278f72c7db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1857275664143725241
+    second: RosaCrescuda2_0
+  - first:
+      213: 6745446610310948898
+    second: RosaCrescuda2_1
+  - first:
+      213: 5593459824935607343
+    second: RosaCrescuda2_2
+  - first:
+      213: -3262734075111038172
+    second: RosaCrescuda2_3
+  - first:
+      213: 7492292402297032562
+    second: RosaCrescuda2_4
+  - first:
+      213: -6476697612039450605
+    second: RosaCrescuda2_5
+  - first:
+      213: -295435324435374473
+    second: RosaCrescuda2_6
+  - first:
+      213: 5897442281607012314
+    second: RosaCrescuda2_7
+  - first:
+      213: -3825220401779981841
+    second: RosaCrescuda2_8
+  - first:
+      213: -6482960487897302066
+    second: RosaCrescuda2_9
+  - first:
+      213: -1799081677866433340
+    second: RosaCrescuda2_10
+  - first:
+      213: 5400290424094169387
+    second: RosaCrescuda2_11
+  - first:
+      213: -2812059066179174635
+    second: RosaCrescuda2_12
+  - first:
+      213: 5182067904402500068
+    second: RosaCrescuda2_13
+  - first:
+      213: -3941301186179076263
+    second: RosaCrescuda2_14
+  - first:
+      213: 5903347869589592114
+    second: RosaCrescuda2_15
+  - first:
+      213: 5306732633553562670
+    second: RosaCrescuda2_16
+  - first:
+      213: 6564253370700271516
+    second: RosaCrescuda2_17
+  - first:
+      213: 9062643280447278013
+    second: RosaCrescuda2_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RosaCrescuda2_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 786
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2b343506e56c910800000000000000
+      internalID: 1857275664143725241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 749
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22862f204f3ac9d50800000000000000
+      internalID: 6745446610310948898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 641
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c94ba4316ff9d40800000000000000
+      internalID: 5593459824935607343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 646
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423a17835a078b2d0800000000000000
+      internalID: -3262734075111038172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 593
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fc5487e38f9f760800000000000000
+      internalID: 7492292402297032562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 611
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31094cc36d52e16a0800000000000000
+      internalID: -6476697612039450605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 618
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e5de0432766ebf0800000000000000
+      internalID: -295435324435374473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 594
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf1e86528ce7d150800000000000000
+      internalID: 5897442281607012314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 581
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1c35cbf461aeac0800000000000000
+      internalID: -3825220401779981841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 580
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbfcf1d8c5e706a0800000000000000
+      internalID: -6482960487897302066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 418
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c48bd4feb06807e0800000000000000
+      internalID: -1799081677866433340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 406
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29931c578fa1fa40800000000000000
+      internalID: 5400290424094169387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 405
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f39f0ad2f89f8d0800000000000000
+      internalID: -2812059066179174635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 327
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e92dd3ad476ae740800000000000000
+      internalID: 5182067904402500068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_14
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 89
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f68fcf37fad49c0800000000000000
+      internalID: -3941301186179076263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_15
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 76
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23852703c97ece150800000000000000
+      internalID: 5903347869589592114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ceee4c63d45a940800000000000000
+      internalID: 5306732633553562670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f004869a9e81b50800000000000000
+      internalID: 6564253370700271516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaCrescuda2_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb04213c0af4cd70800000000000000
+      internalID: 9062643280447278013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RosaCrescuda2_0: 1857275664143725241
+      RosaCrescuda2_1: 6745446610310948898
+      RosaCrescuda2_10: -1799081677866433340
+      RosaCrescuda2_11: 5400290424094169387
+      RosaCrescuda2_12: -2812059066179174635
+      RosaCrescuda2_13: 5182067904402500068
+      RosaCrescuda2_14: -3941301186179076263
+      RosaCrescuda2_15: 5903347869589592114
+      RosaCrescuda2_16: 5306732633553562670
+      RosaCrescuda2_17: 6564253370700271516
+      RosaCrescuda2_18: 9062643280447278013
+      RosaCrescuda2_2: 5593459824935607343
+      RosaCrescuda2_3: -3262734075111038172
+      RosaCrescuda2_4: 7492292402297032562
+      RosaCrescuda2_5: -6476697612039450605
+      RosaCrescuda2_6: -295435324435374473
+      RosaCrescuda2_7: 5897442281607012314
+      RosaCrescuda2_8: -3825220401779981841
+      RosaCrescuda2_9: -6482960487897302066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

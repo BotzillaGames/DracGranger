@@ -33,6 +33,12 @@ public class PlayerController : MonoBehaviour
         }
         Debug.DrawLine(Vector2.zero, destination, Color.red, 10);
         InvokeRepeating("LeanMove", 2.0f, 2f);
+        Invoke("AutoDestroy", 60);
+    }
+
+    private void AutoDestroy()
+    {
+        Destroy(gameObject);
     }
 
     private void LeanMove()

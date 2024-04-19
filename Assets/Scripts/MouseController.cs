@@ -8,6 +8,8 @@ public class MouseController : MonoBehaviour
 {
     public CustomCursor cursorStatus;
 
+    public AudioManager audioManager;
+
     public LineRenderer fireLine;
 
     public GameObject firePrefab;
@@ -105,15 +107,21 @@ public class MouseController : MonoBehaviour
             newFire.transform.localPosition = newFirePos;
             instantiatedFire.Add(newFire.transform.localPosition);
         }
+        if (instantiatedFire.Count > 0)
+        {
+            audioManager.PlayFire();
+        }
         cursorStatus.OnCursorChange("Default");
     }
 
 
-    void UpdateFireValue(float addFireEnergy){
+    void UpdateFireValue(float addFireEnergy)
+    {
         fireEnergy = Mathf.Min(fireEnergy + addFireEnergy, ENERGY_MAX_VALUE);
     }
 
-    public float GetFireEnergyValue(){
+    public float GetFireEnergyValue()
+    {
         return fireEnergy;
     }
 }

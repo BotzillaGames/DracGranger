@@ -8,6 +8,7 @@ public class InputHandler : MonoBehaviour
 
     public CustomCursor cursorStatus;
     public GameController gameController;
+    public AudioManager audioManager;
     private Camera _mainCamera;
 
     // Start is called before the first frame update
@@ -18,6 +19,14 @@ public class InputHandler : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext context)
     {
+        if (context.started)
+        {
+            cursorStatus.StartClick(audioManager);
+        }
+        if (context.canceled)
+        {
+            cursorStatus.EndClick();
+        }
         if (!context.canceled) return;
 
         var rayHit = Physics2D.GetRayIntersection(_mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue()));
@@ -28,8 +37,8 @@ public class InputHandler : MonoBehaviour
         Rose rose = rayHit.collider.GetComponent<Rose>();
         if (rose)
         {
-            bool shouldAddPoints = rose.ClickRose(cursorStatus.currentCursor);
-            if (shouldAddPoints) gameController.AddPoints(1);
+            int pointsToAdd = rose.ClickRose(cursorStatus.currentCursor);
+            gameController.AddPoints(pointsToAdd);
             cursorStatus.OnCursorChange("Default");
         }
 

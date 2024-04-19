@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: f1cb9639b328be644a197ed745edfc08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7116942513167501460
+    second: RosaPocha_0
+  - first:
+      213: 4894688272755270107
+    second: RosaPocha_1
+  - first:
+      213: 6500786223146141506
+    second: RosaPocha_2
+  - first:
+      213: -3350509988849424075
+    second: RosaPocha_3
+  - first:
+      213: 5819362071748025458
+    second: RosaPocha_4
+  - first:
+      213: 3175673168228920512
+    second: RosaPocha_5
+  - first:
+      213: 702660508619667068
+    second: RosaPocha_6
+  - first:
+      213: 1653908450449243205
+    second: RosaPocha_7
+  - first:
+      213: 5263791091444258828
+    second: RosaPocha_8
+  - first:
+      213: -1565925976677439749
+    second: RosaPocha_9
+  - first:
+      213: 3618441768427318754
+    second: RosaPocha_10
+  - first:
+      213: 778196375015945558
+    second: RosaPocha_11
+  - first:
+      213: 4076781048598620185
+    second: RosaPocha_12
+  - first:
+      213: -1408828783410576998
+    second: RosaPocha_13
+  - first:
+      213: -8389931941844023834
+    second: RosaPocha_14
+  - first:
+      213: -4479826630706250278
+    second: RosaPocha_15
+  - first:
+      213: -4797131394460550812
+    second: RosaPocha_16
+  - first:
+      213: -1633376426745442788
+    second: RosaPocha_17
+  - first:
+      213: 4318571942828431575
+    second: RosaPocha_18
+  - first:
+      213: 7242828056218782983
+    second: RosaPocha_19
+  - first:
+      213: -3211284800259585189
+    second: RosaPocha_20
+  - first:
+      213: 7791898384081708785
+    second: RosaPocha_21
+  - first:
+      213: 7878124913513165796
+    second: RosaPocha_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RosaPocha_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 836
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4988930328574c260800000000000000
+      internalID: 7116942513167501460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_1
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 755
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd129d70d0d6de340800000000000000
+      internalID: 4894688272755270107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 644
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247016790ae673a50800000000000000
+      internalID: 6500786223146141506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 637
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5396b3abae89081d0800000000000000
+      internalID: -3350509988849424075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 621
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c1ce1d8f682c050800000000000000
+      internalID: 5819362071748025458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 604
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc260bcbe1421c20800000000000000
+      internalID: 3175673168228920512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 577
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7678fd720a50c900800000000000000
+      internalID: 702660508619667068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 608
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c3b0019fcd3f610800000000000000
+      internalID: 1653908450449243205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 599
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089661eb1ebc0940800000000000000
+      internalID: 5263791091444258828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 589
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6a59fee96b44ae0800000000000000
+      internalID: -1565925976677439749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 576
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edeb87fd99473230800000000000000
+      internalID: 3618441768427318754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 536
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6557252ea75bcca00800000000000000
+      internalID: 778196375015945558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 555
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918e3c493c2a39830800000000000000
+      internalID: 4076781048598620185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 541
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91877f8fa5d27ce0800000000000000
+      internalID: -1408828783410576998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 420
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50fa4c959f09b80800000000000000
+      internalID: -8389931941844023834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 424
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add3b6d1a6574d1c0800000000000000
+      internalID: -4479826630706250278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 395
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469fd4cb96a2d6db0800000000000000
+      internalID: -4797131394460550812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 394
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e475b3bc41559e0800000000000000
+      internalID: -1633376426745442788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 332
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8d14d1d46aeeb30800000000000000
+      internalID: 4318571942828431575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_19
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 313
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d47243eb1b38460800000000000000
+      internalID: 7242828056218782983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 212
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b8aeffc793f63d0800000000000000
+      internalID: -3211284800259585189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_21
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 71
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6612d0c42622c60800000000000000
+      internalID: 7791898384081708785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RosaPocha_22
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 6
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e37b166ed8b45d60800000000000000
+      internalID: 7878124913513165796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RosaPocha_0: 7116942513167501460
+      RosaPocha_1: 4894688272755270107
+      RosaPocha_10: 3618441768427318754
+      RosaPocha_11: 778196375015945558
+      RosaPocha_12: 4076781048598620185
+      RosaPocha_13: -1408828783410576998
+      RosaPocha_14: -8389931941844023834
+      RosaPocha_15: -4479826630706250278
+      RosaPocha_16: -4797131394460550812
+      RosaPocha_17: -1633376426745442788
+      RosaPocha_18: 4318571942828431575
+      RosaPocha_19: 7242828056218782983
+      RosaPocha_2: 6500786223146141506
+      RosaPocha_20: -3211284800259585189
+      RosaPocha_21: 7791898384081708785
+      RosaPocha_22: 7878124913513165796
+      RosaPocha_3: -3350509988849424075
+      RosaPocha_4: 5819362071748025458
+      RosaPocha_5: 3175673168228920512
+      RosaPocha_6: 702660508619667068
+      RosaPocha_7: 1653908450449243205
+      RosaPocha_8: 5263791091444258828
+      RosaPocha_9: -1565925976677439749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

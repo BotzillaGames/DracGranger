@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CustomCursor : MonoBehaviour
 {
 
-    public enum CursorType { Seed, Water, Cut, Fire, Default }
+    public enum CursorType { Seed, Water, Cut, Fire, Default, DefaultClick }
 
     public Sprite[] cursors;
 
@@ -54,6 +54,24 @@ public class CustomCursor : MonoBehaviour
                 currentCursor = CursorType.Default;
                 imgCursor.sprite = cursors[(int)CursorType.Default];
                 break;
+            case "DefaultClick":
+                currentCursor = CursorType.DefaultClick;
+                imgCursor.sprite = cursors[(int)CursorType.DefaultClick];
+                break;
         }
+    }
+
+    public void StartClick(AudioManager audioManager)
+    {
+        if (currentCursor == CursorType.Default)
+        {
+            OnCursorChange("DefaultClick");
+            audioManager.GenerateAudio(AudioManager.AudioType.Click);
+        };
+    }
+
+    public void EndClick()
+    {
+        if (currentCursor == CursorType.DefaultClick) OnCursorChange("Default");
     }
 }
