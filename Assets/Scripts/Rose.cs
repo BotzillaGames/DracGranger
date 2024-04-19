@@ -8,7 +8,7 @@ public class Rose : MonoBehaviour
 
     private bool mouse_over = false;
 
-    private bool isDead = false;
+    public bool isDead = false;
 
     private AudioManager audioManager;
 

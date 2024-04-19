@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class RoseSpawner : MonoBehaviour
 {
 
-    private const int LIFESTART = 5;
+    private const int LIFESTART = 2;
 
     public GameObject rose;
+
+    public GameOverManager gameOver;
 
     private Grid grid;
 
     private List<Vector2> usedPoints = new List<Vector2>();
+
+    private List<Rose> roses = new List<Rose>();
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +27,26 @@ public class RoseSpawner : MonoBehaviour
         {
             SpawnRose();
         }
+    }
+
+    /// <summary>
+    /// Update is called every frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void Update()
+    {
+        if (!gameOver.isFinished)
+        {
+            bool gameOver = true;
+            roses.ForEach((rose) =>
+            {
+                if (!rose.isDead)
+                {
+                    gameOver = false;
+                }
+            });
+            if (gameOver) FinishGame();
+        }
+
     }
 
     private void SpawnRose()
@@ -53,5 +78,15 @@ public class RoseSpawner : MonoBehaviour
         Vector2 snappedPos = grid.GetCellCenterLocal(cellPosition);
         newRose.transform.localPosition = snappedPos;
         usedPoints.Add(snappedPos);
+        roses.Add(newRose.GetComponent<Rose>());
+    }
+
+    private void FinishGame()
+    {
+        if (!gameOver.isFinished)
+        {
+            gameOver.FinishGame();
+            gameOver.isFinished = true;
+        }
     }
 }
