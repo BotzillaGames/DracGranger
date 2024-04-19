@@ -18,11 +18,15 @@ public class MouseController : MonoBehaviour
 
     private SpriteRenderer hoverSprite;
 
+    private float fireEnergy;
+    private const float ENERGY_MAX_VALUE = 100.0f;
+
     // Start is called before the first frame update
     void Start()
     {
         grid = transform.parent.GetComponent<Grid>();
         hoverSprite = GetComponent<SpriteRenderer>();
+        fireEnergy = ENERGY_MAX_VALUE;
     }
 
     // Update is called once per frame
@@ -87,6 +91,8 @@ public class MouseController : MonoBehaviour
 
         float lineMag = Vector2.Distance(point1, point2);
 
+        fireEnergy -= lineMag;
+
         List<Vector2> instantiatedFire = new List<Vector2>();
 
         for (float i = 1; i < Math.Floor(lineMag); i = i + 0.2f)
@@ -100,5 +106,14 @@ public class MouseController : MonoBehaviour
             instantiatedFire.Add(newFire.transform.localPosition);
         }
         cursorStatus.OnCursorChange("Default");
+    }
+
+
+    void UpdateFireValue(float addFireEnergy){
+        fireEnergy = Mathf.Min(fireEnergy + addFireEnergy, ENERGY_MAX_VALUE);
+    }
+
+    public float GetFireEnergyValue(){
+        return fireEnergy;
     }
 }
