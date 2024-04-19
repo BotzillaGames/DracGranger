@@ -55,6 +55,6 @@ public class UIController : MonoBehaviour
     {
         float energyValue = mouseController.GetFireEnergyValue();
 
-        slider.value = energyValue;
+        slider.value = energyValue/100;
     }
 }
