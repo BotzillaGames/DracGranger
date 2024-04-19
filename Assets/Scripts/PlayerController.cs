@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
                     sjAnimator.SetBool("idleAnim", true);
                     LeanTween.cancel(moveAnim);
                 }
-                LeanTween.scaleY(gameObject, 0, 1).setDelay(1).setEaseInElastic().setOnComplete(() =>
+                LeanTween.scaleY(gameObject, 0, 1).setDelay(0.5f).setEaseInElastic().setOnComplete(() =>
                 {
                     Destroy(gameObject);
                 });
