@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FireBehaviour : MonoBehaviour
 {
-    private float ttl = 5;
+    private float ttl = 4;
     private float currLive = 0;
 
     private SpriteRenderer sr;
@@ -30,7 +30,13 @@ public class FireBehaviour : MonoBehaviour
         currLive += Time.deltaTime;
         if (currLive > ttl)
         {
-            Destroy(gameObject);
+            LeanTween.value(gameObject, 1, 0, 0.5f).setOnUpdate((val) =>
+            {
+                sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, val);
+            }).setEaseOutExpo().setOnComplete(() =>
+            {
+                Destroy(gameObject);
+            });
         }
     }
 }

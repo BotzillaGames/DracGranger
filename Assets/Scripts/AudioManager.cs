@@ -49,8 +49,14 @@ public class AudioManager : MonoBehaviour
         newAudioSource.clip = fire;
         newAudioSource.Play();
         StartCoroutine(GarbageAudio(newAudioSource));
-        yield return new WaitForSeconds(5);
-        newAudioSource.Stop();
+        yield return new WaitForSeconds(4);
+        LeanTween.value(gameObject, 1, 0, 0.5f).setOnUpdate((val) =>
+        {
+            newAudioSource.volume = val;
+        }).setEaseOutExpo().setOnComplete(() =>
+        {
+            newAudioSource.Stop();
+        });
         yield return 0;
     }
 

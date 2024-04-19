@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public float speed;
+
     private Grid grid;
 
     private Animator sjAnimator;
@@ -14,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     private bool burning = false;
 
-    private int life = 3;
+    public int life = 3;
 
     private int moveAnim = -1;
 
@@ -32,7 +35,7 @@ public class PlayerController : MonoBehaviour
             GetComponentInChildren<SpriteRenderer>().flipX = true;
         }
         Debug.DrawLine(Vector2.zero, destination, Color.red, 10);
-        InvokeRepeating("LeanMove", 2.0f, 2f);
+        InvokeRepeating("LeanMove", speed * 2, speed * 2);
         Invoke("AutoDestroy", 60);
     }
 
@@ -43,11 +46,11 @@ public class PlayerController : MonoBehaviour
 
     private void LeanMove()
     {
-        if (!burning)
+        if (!burning && life > 0)
         {
             sjAnimator.SetBool("idleAnim", false);
             Vector3Int cellPosition = grid.LocalToCell(new Vector2(transform.localPosition.x + destination.normalized.x * 2, transform.localPosition.y + destination.normalized.y * 2));
-            moveAnim = LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), .5f).setDelay(1).setEaseOutExpo().setOnComplete(() =>
+            moveAnim = LeanTween.moveLocal(gameObject, grid.GetCellCenterLocal(cellPosition), speed).setDelay(0.2f).setOnComplete(() =>
             {
                 sjAnimator.SetBool("idleAnim", true);
                 moveAnim = -1;
@@ -68,7 +71,15 @@ public class PlayerController : MonoBehaviour
             life--;
             if (life <= 0)
             {
-                Destroy(gameObject);
+                if (moveAnim != -1)
+                {
+                    sjAnimator.SetBool("idleAnim", true);
+                    LeanTween.cancel(moveAnim);
+                }
+                LeanTween.scaleY(gameObject, 0, 1).setDelay(1).setEaseInElastic().setOnComplete(() =>
+                {
+                    Destroy(gameObject);
+                });
             }
             else
             {
