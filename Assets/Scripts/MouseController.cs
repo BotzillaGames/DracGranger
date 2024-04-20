@@ -95,7 +95,7 @@ public class MouseController : MonoBehaviour
         float lineMag = Vector2.Distance(point1, point2);
 
         if((fireEnergy - lineMag) > 0) {
-            fireEnergy = Mathf.Max(fireEnergy - lineMag, 0);
+            fireEnergy = Mathf.Max(fireEnergy - (lineMag*2), 0);
 
             List<Vector2> instantiatedFire = new List<Vector2>();
 
