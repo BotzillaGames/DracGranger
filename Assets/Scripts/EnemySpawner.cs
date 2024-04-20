@@ -1,26 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;
 
+    // Time between spawns.
+    public float timeBetweenSpawns = 5f;
 
-    // Time to wait between spawns.
-    private float ttw = 10;
+    // Time to increase spawn rate.
+    private float timeToIncreaseRate = 35f;
 
-    // Time to increase rate.
-    private float tti = 30;
-
+    // Internal counter for time.
     private float internalCounter = 0;
+
+    // Number of enemies per wave.
+    public int enemiesPerWave = 1;
+
+    // Increment in enemies per wave.
+    public int enemiesIncrement = 1;
+
+    // Time between waves.
+    public float timeBetweenWaves = 30f;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(SpawnEnemyLoop());
     }
-
 
     void Update()
     {
@@ -31,17 +38,26 @@ public class EnemySpawner : MonoBehaviour
     {
         while (true)
         {
-            if (internalCounter >= tti)
+            if (internalCounter >= timeToIncreaseRate)
             {
                 internalCounter = 0;
-                ttw = ttw / 1.5f;
+                timeBetweenWaves = timeBetweenWaves / 1.5f;
             }
-            SpawnEnemy();
-            yield return new WaitForSeconds(ttw);
-        }
-        yield return 0;
-    }
 
+            // Spawn enemies for the current wave
+            for (int i = 0; i < enemiesPerWave; i++)
+            {
+                SpawnEnemy();
+                yield return new WaitForSeconds(timeBetweenSpawns);
+            }
+
+            // Wait between waves
+            yield return new WaitForSeconds(timeBetweenWaves);
+
+            // Increase enemies for the next wave
+            enemiesPerWave += enemiesIncrement;
+        }
+    }
 
     void SpawnEnemy()
     {
