@@ -6,6 +6,10 @@ using UnityEngine.InputSystem;
 
 public class MouseController : MonoBehaviour
 {
+    public float fireCostMultiplier;
+
+    public float reloadFireRate;
+
     public CustomCursor cursorStatus;
 
     public AudioManager audioManager;
@@ -29,7 +33,7 @@ public class MouseController : MonoBehaviour
         grid = transform.parent.GetComponent<Grid>();
         hoverSprite = GetComponent<SpriteRenderer>();
         fireEnergy = ENERGY_MAX_VALUE;
-        InvokeRepeating("UpdateFireValue", 1f, 1f);
+        InvokeRepeating("UpdateFireValue", reloadFireRate, reloadFireRate);
     }
 
     // Update is called once per frame
@@ -94,15 +98,16 @@ public class MouseController : MonoBehaviour
 
         float lineMag = Vector2.Distance(point1, point2);
 
-        if((fireEnergy - lineMag) > 0) {
-            fireEnergy = Mathf.Max(fireEnergy - (lineMag*2), 0);
+        if ((fireEnergy - lineMag) > 0)
+        {
+            fireEnergy = Mathf.Max(fireEnergy - (lineMag * fireCostMultiplier), 0);
 
             List<Vector2> instantiatedFire = new List<Vector2>();
 
-            for (float i = 1; i < Math.Floor(lineMag); i = i + 0.2f)
+            for (float i = 1; i < Math.Ceiling(lineMag); i = i + 0.2f)
             {
                 Debug.DrawLine(point2, point1, Color.yellow, 1000);
-                float normal = Mathf.InverseLerp(1, (float)Math.Floor(lineMag), i);
+                float normal = Mathf.InverseLerp(1, lineMag, i);
                 Vector2 newFirePos = Vector2.Lerp(point1, point2, normal);
                 Debug.DrawLine(Vector2.zero, newFirePos, Color.red, 1000);
                 GameObject newFire = Instantiate(firePrefab);

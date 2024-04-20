@@ -39,14 +39,9 @@ public class FireBehaviour : MonoBehaviour
                 sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, val);
             }).setEaseOutExpo().setOnComplete(() =>
             {
-                StartCoroutine(DestroyFire());
+                Destroy(gameObject);
             });
         }
     }
 
-    private IEnumerator DestroyFire()
-    {
-        yield return new WaitForSeconds(1);
-        Destroy(gameObject);
-    }
 }

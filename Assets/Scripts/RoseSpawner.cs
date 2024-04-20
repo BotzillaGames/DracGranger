@@ -55,7 +55,7 @@ public class RoseSpawner : MonoBehaviour
         Vector3 randomWorldPoint = new Vector3();
         while (!emptySpaceFound)
         {
-            randomWorldPoint = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.25f, 0.85f), Random.Range(0.25f, 0.85f), 0));
+            randomWorldPoint = Camera.main.ViewportToWorldPoint(new Vector3(Random.Range(0.3f, 0.7f), Random.Range(0.3f, 0.7f), 0));
             randomWorldPoint.z = 0;
             if (usedPoints.Count == 0) emptySpaceFound = true;
             if (!emptySpaceFound)

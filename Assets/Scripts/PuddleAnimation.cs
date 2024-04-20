@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlareAnimation : MonoBehaviour
+public class PuddleAnimation : MonoBehaviour
 {
     private SpriteRenderer sr; private SpriteRenderer parentSr;
+    private float valueToScale = 1.5f;
+    private float initialScale = 4.1f;
 
 
     // Start is called before the first frame update
@@ -18,14 +20,13 @@ public class FlareAnimation : MonoBehaviour
     void Update()
     {
         sr.enabled = parentSr.enabled;
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z - 0.3f);
     }
 
-    public void DryingAnimation()
+    public void WateringAnimation()
     {
-        LeanTween.value(1, 0, 8).setOnUpdate((val) =>
+        LeanTween.value(gameObject, initialScale, valueToScale, 8).setOnUpdate((val) =>
         {
-            sr.color = new Color(1, 1, 1, val);
+            transform.localScale = new Vector3(val, val, val);
         });
     }
 }
