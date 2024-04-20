@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: afcafc20b1dbb4a57b754ed6d039de0d
+guid: 933d182c0008643f690560a9a6e865d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6533685367855062318
-    second: Group 3757 (1)_0
+      213: 4965046127633004738
+    second: icon_rosa_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 3757 (1)_0
+      name: icon_rosa_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 16
-        width: 55
-        height: 62
+        x: 3
+        y: 11
+        width: 98
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2d1b21a9305caa50800000000000000
-      internalID: 6533685367855062318
+      spriteID: 2c87efaa52367e440800000000000000
+      internalID: 4965046127633004738
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Group 3757 (1)_0: 6533685367855062318
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

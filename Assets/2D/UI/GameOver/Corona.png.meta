@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9e485801a0a97415297d5d69de52d561
+guid: d733d90190b614999988e9c08124e84f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6048143509319631735
-    second: Group 3759 (1)_0
+      213: -603989586284366352
+    second: Corona_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Group 3759 (1)_0
+      name: Corona_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 21
-        width: 56
-        height: 63
+        x: 8
+        y: 11
+        width: 126
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 773c49f2a725fe350800000000000000
-      internalID: 6048143509319631735
+      spriteID: 0f53c7ddba23e97f0800000000000000
+      internalID: -603989586284366352
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Group 3759 (1)_0: 6048143509319631735
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
