@@ -9,6 +9,8 @@ public class FireBehaviour : MonoBehaviour
 
     private SpriteRenderer sr;
 
+    private bool isDestroying = false;
+
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
     /// any of the Update methods is called the first time.
@@ -17,6 +19,7 @@ public class FireBehaviour : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         InvokeRepeating("FlipSprite", 0.1f, 0.1f);
+        LeanTween.init(2000);
     }
 
     private void FlipSprite()
@@ -28,15 +31,22 @@ public class FireBehaviour : MonoBehaviour
     void Update()
     {
         currLive += Time.deltaTime;
-        if (currLive > ttl)
+        if (currLive > ttl && !isDestroying)
         {
+            isDestroying = true;
             LeanTween.value(gameObject, 1, 0, 0.5f).setOnUpdate((val) =>
             {
                 sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, val);
             }).setEaseOutExpo().setOnComplete(() =>
             {
-                Destroy(gameObject);
+                StartCoroutine(DestroyFire());
             });
         }
+    }
+
+    private IEnumerator DestroyFire()
+    {
+        yield return new WaitForSeconds(1);
+        Destroy(gameObject);
     }
 }
