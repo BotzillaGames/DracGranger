@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoseSpawner : MonoBehaviour
 {
@@ -10,7 +11,8 @@ public class RoseSpawner : MonoBehaviour
     private const int LIFESTART = 5;
 
     public GameObject rose;
-
+    public Image dracFace;
+    public Sprite[] spritesDrac;
     public GameOverManager gameOver;
 
     private Grid grid;
@@ -36,15 +38,27 @@ public class RoseSpawner : MonoBehaviour
     {
         if (!gameOver.isFinished)
         {
-            bool gameOver = true;
+            int lifes = 0;
             roses.ForEach((rose) =>
             {
                 if (!rose.isDead)
                 {
-                    gameOver = false;
+                    lifes++;
                 }
             });
-            if (gameOver) FinishGame();
+            if (lifes == 0) FinishGame();
+            if (lifes == 5)
+            {
+                dracFace.sprite = spritesDrac[0];
+            }
+            else if (lifes > 1)
+            {
+                dracFace.sprite = spritesDrac[1];
+            }
+            else if (lifes > 0)
+            {
+                dracFace.sprite = spritesDrac[2];
+            }
         }
 
     }

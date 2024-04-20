@@ -46,7 +46,14 @@ public class Rose : MonoBehaviour
             if (internalDryCounter >= timeToDry)
             {
                 transform.GetChild(roseLifeStep).GetComponent<SpriteRenderer>().enabled = false;
-                roseLifeStep += 2;
+                if (roseLifeStep == 3)
+                {
+                    roseLifeStep = 6;
+                }
+                else if (roseLifeStep == 5)
+                {
+                    roseLifeStep = 7;
+                }
                 transform.GetChild(roseLifeStep).GetComponent<SpriteRenderer>().enabled = true;
             }
         }
