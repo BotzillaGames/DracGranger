@@ -52,7 +52,7 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(4);
         LeanTween.value(gameObject, 1, 0, 0.5f).setOnUpdate((val) =>
         {
-            newAudioSource.volume = val;
+            if (newAudioSource) newAudioSource.volume = val;
         }).setEaseOutExpo().setOnComplete(() =>
         {
             newAudioSource.Stop();
