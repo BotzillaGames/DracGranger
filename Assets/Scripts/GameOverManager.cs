@@ -7,7 +7,8 @@ public class GameOverManager : MonoBehaviour
 {
     public bool isFinished = false;
 
-    private int scoreRecord = 0;
+    private int highScore = 0;
+     private string highScoreKey = "HighScore";
 
     private int scoreActual;
 
@@ -35,12 +36,14 @@ public class GameOverManager : MonoBehaviour
     public GameObject abilities;
     public GameObject dracUI;
 
+    public UnityEngine.UI.Image blackScreen;
+
     //Game Controller
     public GameController gameController;
 
 
     public void Start(){
-        //read scoreRecord from json
+        LoadHighScore();
 
     }
 
@@ -53,58 +56,83 @@ public class GameOverManager : MonoBehaviour
 
         //Hide UI items
         abilities.SetActive(false);
-        abilities.SetActive(dracUI);
+        dracUI.SetActive(false);
 
         //Background
-        LeanTween.value(background.gameObject, 0, 0.8f, 1f).setOnUpdate((val) =>
+        LeanTween.value(background.gameObject, 0, 1f, 1f).setOnUpdate((val) =>
         {
             background.color = new Color(1, 1, 1, val);
         });
 
+        //BlackScreen 
+        LeanTween.value(blackScreen.gameObject, 0, 0.5f, 1f).setOnUpdate((val) =>
+        {
+            blackScreen.color = new Color(0, 0, 0, val);
+        });
+
         //Game over button
-        LeanTween.value(gameOverButton.gameObject, 0, 1, 1).setDelay(1.5f).setOnUpdate((val) =>
+        LeanTween.value(gameOverButton.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             gameOverButton.color = new Color(1, 1, 1, val);
         });
         
         //Amount Roses
-        amountRoses.text = amountRoses;
-        LeanTween.value(amountRoses.gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+        amountRoses.text = scoreActual.ToString();
+        LeanTween.value(amountRoses.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             amountRoses.color = new Color(1, 1, 1, val);
         });
 
         //Rosa Icon
-        LeanTween.value(rosaIcon.gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+        LeanTween.value(rosaIcon.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             rosaIcon.color = new Color(1, 1, 1, val);
         });
 
-        if(scoreActual > scoreRecord){
+        if(scoreActual > highScore){
             for(int i = 0; i < newRecord.Length; i++){
-                LeanTween.value(newRecord[i].gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+                int index = i;
+                LeanTween.value(newRecord[index].gameObject, 0, 1, 1).setOnUpdate((val) =>
                 {
-                    newRecord[i].color = new Color(1, 1, 1, val);
+                    newRecord[index].color = new Color(1, 1, 1, val);
                 });
             }
 
-            LeanTween.value(newRecordText.gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+            LeanTween.value(newRecordText.gameObject, 0, 1, 1).setOnUpdate((val) =>
             {
                 newRecordText.color = new Color(0, 0, 0, val);
             });
+            
+            highScore = scoreActual;
+            SaveHighScore();
         } else {
             for(int i = 0; i < millorPuntuacio.Length; i++){
-                LeanTween.value(millorPuntuacio[i].gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+                int index = i;
+                LeanTween.value(millorPuntuacio[index].gameObject, 0, 1, 1).setOnUpdate((val) =>
                 {
-                    millorPuntuacio[i].color = new Color(1, 1, 1, val);
+                    millorPuntuacio[index].color = new Color(1, 1, 1, val);
                 });
             }
 
 
-            LeanTween.value(bestScoreText.gameObject, 0, 1, 1).setDelay(2f).setOnUpdate((val) =>
+            LeanTween.value(bestScoreText.gameObject, 0, 1, 1).setOnUpdate((val) =>
             {
                 bestScoreText.color = new Color(0, 0, 0, val);
             });
+        }
+    }
+
+        private void SaveHighScore()
+    {
+        PlayerPrefs.SetInt(highScoreKey, highScore);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadHighScore()
+    {
+        if (PlayerPrefs.HasKey(highScoreKey))
+        {
+            highScore = PlayerPrefs.GetInt(highScoreKey);
         }
     }
 }

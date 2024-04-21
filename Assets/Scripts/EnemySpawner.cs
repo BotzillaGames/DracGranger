@@ -18,12 +18,13 @@ public class EnemySpawner : MonoBehaviour
     public int enemiesPerWave = 1;
 
     // Increment in enemies per wave.
-    public int enemiesIncrement = 1;
+    public int enemiesIncrement = 2;
 
     // Time between waves.
     public float timeBetweenWaves = 30f;
 
-    // Start is called before the first frame update
+    public GameOverManager gameOver;
+
     void Start()
     {
         StartCoroutine(SpawnEnemyLoop());
@@ -36,7 +37,7 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator SpawnEnemyLoop()
     {
-        while (true)
+        while (!gameOver.isFinished)
         {
             if (internalCounter >= timeToIncreaseRate)
             {

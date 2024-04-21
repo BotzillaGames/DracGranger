@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0722b2517afa4999b444ecfda620913
+guid: 0c4d5c1cceb8d4a20b3c7e1c46e74372
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2071944994608149917
-    second: popup_gameover_0
+      213: 6152960712657641168
+    second: popup_gameover (1)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: popup_gameover_0
+      name: popup_gameover (1)_0
       rect:
         serializedVersion: 2
         x: 57
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9574c5bef601cc10800000000000000
-      internalID: 2071944994608149917
+      spriteID: 0de94ea1b25b36550800000000000000
+      internalID: 6152960712657641168
       vertices: []
       indices: 
       edges: []
@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      popup_gameover (1)_0: 6152960712657641168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
