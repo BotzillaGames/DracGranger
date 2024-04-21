@@ -10,6 +10,9 @@ public class GameController : MonoBehaviour
     private int bestScore = 0;
     public Timer timer;
     public UIController uiController;
+    public RoseSpawner roseSpawner;
+    public EnemySpawner enemySpawner;
+
 
     void Start()
     {
@@ -25,5 +28,18 @@ public class GameController : MonoBehaviour
 
     public int GetScore(){
         return points;
+    }
+
+    public void PauseTime(bool pause){
+        timer.SetPaused(pause);
+    }
+
+    public void ResetGame(){
+        timer.ResetTimer();
+        PauseTime(false);
+        points = 0;
+        uiController.UpdatePoints(points);
+        roseSpawner.ResetRoseSpawner();
+        enemySpawner.DeleteAllEnemies();
     }
 }

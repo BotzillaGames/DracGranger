@@ -50,6 +50,7 @@ public class GameOverManager : MonoBehaviour
     public void FinishGame()
     {
         Debug.Log("Game Over!!");
+        gameController.PauseTime(true);
         scoreActual = gameController.GetScore();
 
         parent.SetActive(true);
@@ -122,7 +123,7 @@ public class GameOverManager : MonoBehaviour
         }
     }
 
-        private void SaveHighScore()
+    private void SaveHighScore()
     {
         PlayerPrefs.SetInt(highScoreKey, highScore);
         PlayerPrefs.Save();
@@ -135,4 +136,44 @@ public class GameOverManager : MonoBehaviour
             highScore = PlayerPrefs.GetInt(highScoreKey);
         }
     }
+
+    public void PlayAgain(){
+        Debug.Log("Play Again");
+
+        parent.SetActive(false);
+
+        //Hide UI items
+        abilities.SetActive(true);
+        dracUI.SetActive(true);
+
+        //Background
+        background.color = new Color(1, 1, 1, 0f);
+
+        //BlackScreen 
+        blackScreen.color = new Color(0, 0, 0, 0f);
+
+        //Game over button
+        gameOverButton.color = new Color(1, 1, 1, 0f);
+        
+        //Amount Roses
+        amountRoses.color = new Color(1, 1, 1, 0f);
+
+        //Rosa Icon
+        rosaIcon.color = new Color(1, 1, 1, 0f);
+
+        for(int i = 0; i < newRecord.Length; i++){
+            newRecord[i].color = new Color(1, 1, 1, 0f);
+        }
+        newRecordText.color = new Color(0, 0, 0, 0f);
+
+        for(int i = 0; i < millorPuntuacio.Length; i++){
+            millorPuntuacio[i].color = new Color(1, 1, 1, 0f);
+        }
+
+        bestScoreText.color = new Color(0, 0, 0, 0f);
+
+        gameController.ResetGame();
+        isFinished = false;
+    }
+
 }

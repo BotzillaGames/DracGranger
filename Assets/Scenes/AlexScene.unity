@@ -329,6 +329,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: {fileID: 201148212}
   uiController: {fileID: 1458356023}
+  roseSpawner: {fileID: 1434706833}
+  enemySpawner: {fileID: 1312816434}
 --- !u!114 &201148212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1635,7 +1637,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 531891756}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1562097393}
+        m_TargetAssemblyTypeName: GameOverManager, Assembly-CSharp
+        m_MethodName: PlayAgain
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &531891756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1724,7 +1738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3482,7 +3496,7 @@ MonoBehaviour:
   enemiesPerWave: 1
   enemiesIncrement: 1
   timeBetweenWaves: 30
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1562097393}
 --- !u!1 &1313648940
 GameObject:
   m_ObjectHideFlags: 0
@@ -4554,8 +4568,8 @@ MonoBehaviour:
   - {fileID: 1361640494}
   bestScoreText: {fileID: 794036214}
   abilities: {fileID: 684541355}
-  dracUI: {fileID: 2047194736}
-  blackScreen: {fileID: 0}
+  dracUI: {fileID: 1447136821}
+  blackScreen: {fileID: 2047194738}
   gameController: {fileID: 201148211}
 --- !u!1 &1681312902
 GameObject:
@@ -5225,7 +5239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5686275}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

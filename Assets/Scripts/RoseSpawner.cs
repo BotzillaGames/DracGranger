@@ -103,4 +103,28 @@ public class RoseSpawner : MonoBehaviour
             gameOver.isFinished = true;
         }
     }
+
+    public void ResetRoseSpawner(){
+        CleanAndDestroyRoses();
+        
+        grid = transform.parent.GetComponent<Grid>();
+        for (int i = 0; i < LIFESTART; i++)
+        {
+            SpawnRose();
+        }
+    }
+
+    private void CleanAndDestroyRoses()
+    {
+        usedPoints.Clear();
+
+        foreach (Rose rose in roses)
+        {
+            if (rose != null && rose.gameObject != null)
+            {
+                Destroy(rose.gameObject);
+            }
+        }
+        roses.Clear();
+    }
 }

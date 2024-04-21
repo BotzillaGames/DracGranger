@@ -4,23 +4,29 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    private float elapsedTime = 0f; // Variable to store the elapsed time
+    private float elapsedTime = 0f;
+
+    private bool isPaused = false;
 
     private void Update()
     {
-        // Update the elapsed time every frame
-        elapsedTime += Time.deltaTime;
+        if(!isPaused){
+            elapsedTime += Time.deltaTime;
+        }
     }
 
     // Method to reset the timer
     public void ResetTimer()
     {
-        elapsedTime = 0f; // Reset the elapsed time to 0
+        elapsedTime = 0f;
     }
 
-    // Method to get the current elapsed time
     public float GetElapsedTime()
     {
         return elapsedTime;
+    }
+
+    public void SetPaused(bool paused){
+        isPaused = paused;
     }
 }

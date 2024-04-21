@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    private EnemySpawner enemySpawner;
+
     private void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -30,6 +32,8 @@ public class EnemyController : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        enemySpawner = FindObjectOfType<EnemySpawner>();
 
         SetEndPosition();
     }
@@ -119,6 +123,14 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other){
         if(other.tag == "Fire" && isTriggered){
             isTriggered = false;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (enemySpawner != null)
+        {
+            enemySpawner.RemoveEnemyFromList(gameObject);
         }
     }
 

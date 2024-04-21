@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class EnemySpawner : MonoBehaviour
 {
     public GameObject[] enemyPrefabs;
@@ -24,6 +24,7 @@ public class EnemySpawner : MonoBehaviour
     public float timeBetweenWaves = 30f;
 
     public GameOverManager gameOver;
+    private List<GameObject> spawnedEnemies = new List<GameObject>();
 
     void Start()
     {
@@ -48,7 +49,8 @@ public class EnemySpawner : MonoBehaviour
             // Spawn enemies for the current wave
             for (int i = 0; i < enemiesPerWave; i++)
             {
-                SpawnEnemy();
+                GameObject newEnemy = SpawnEnemy();
+                spawnedEnemies.Add(newEnemy);
                 yield return new WaitForSeconds(timeBetweenSpawns);
             }
 
@@ -60,7 +62,7 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    void SpawnEnemy()
+    GameObject SpawnEnemy()
     {
         Vector2 initPos = new Vector2(Random.Range(-10f, 10f), Random.Range(-10f, 10f));
         if (Random.value < 0.5f)
@@ -75,5 +77,23 @@ public class EnemySpawner : MonoBehaviour
         GameObject newEnemy = Instantiate(enemyPrefabs[randomEnemy]);
         newEnemy.transform.localPosition = initPos;
         newEnemy.transform.parent = transform;
+        return newEnemy;
+    }
+
+    public void DeleteAllEnemies()
+    {
+        foreach (GameObject enemy in spawnedEnemies)
+        {
+            Destroy(enemy);
+        }
+        spawnedEnemies.Clear(); // Clear the list of spawned enemies
+    }
+
+    public void RemoveEnemyFromList(GameObject enemyToRemove)
+    {
+        if (spawnedEnemies.Contains(enemyToRemove))
+        {
+            spawnedEnemies.Remove(enemyToRemove);
+        }
     }
 }
