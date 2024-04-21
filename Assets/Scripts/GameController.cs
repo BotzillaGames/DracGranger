@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour
 {
 
     private int points = 0;
+
+    private int bestScore = 0;
     public Timer timer;
     public UIController uiController;
 
@@ -19,5 +21,9 @@ public class GameController : MonoBehaviour
     {
         points += numPointsToAdd;
         uiController.UpdatePoints(points);
+    }
+
+    public int GetScore(){
+        return points;
     }
 }
