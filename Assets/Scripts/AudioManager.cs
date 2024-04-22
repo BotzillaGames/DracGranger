@@ -14,6 +14,10 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip breakRose;
 
+    public AudioClip paperOpen;
+
+    public AudioClip paperClose;
+
     public AudioClip[] audios;
 
     public void GenerateAudio(AudioType audioType)
@@ -44,6 +48,26 @@ public class AudioManager : MonoBehaviour
         newAudioSource.outputAudioMixerGroup = master;
 
         newAudioSource.clip = breakRose;
+        newAudioSource.Play();
+        StartCoroutine(GarbageAudio(newAudioSource));
+    }
+
+    public void PaperOpen()
+    {
+        AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
+
+        newAudioSource.clip = paperOpen;
+        newAudioSource.Play();
+        StartCoroutine(GarbageAudio(newAudioSource));
+    }
+
+    public void PaperClose()
+    {
+        AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
+
+        newAudioSource.clip = paperClose;
         newAudioSource.Play();
         StartCoroutine(GarbageAudio(newAudioSource));
     }
