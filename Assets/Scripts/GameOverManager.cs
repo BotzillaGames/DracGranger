@@ -24,6 +24,9 @@ public class GameOverManager : MonoBehaviour
     //Game Over Button
     public UnityEngine.UI.Image gameOverButton;
 
+    //Instructions Button
+    public UnityEngine.UI.Image instructionsButton;
+
     //New record Images
     public UnityEngine.UI.Image[] newRecord;
     public TextMeshProUGUI newRecordText;
@@ -75,6 +78,12 @@ public class GameOverManager : MonoBehaviour
         LeanTween.value(gameOverButton.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             gameOverButton.color = new Color(1, 1, 1, val);
+        });
+
+        //Instructions button
+        LeanTween.value(instructionsButton.gameObject, 0, 1, 1).setOnUpdate((val) =>
+        {
+            instructionsButton.color = new Color(1, 1, 1, val);
         });
         
         //Amount Roses
@@ -154,6 +163,11 @@ public class GameOverManager : MonoBehaviour
 
         //Game over button
         gameOverButton.color = new Color(1, 1, 1, 0f);
+
+
+        //Instructions button
+        instructionsButton.color = new Color(1, 1, 1, 0f);
+        
         
         //Amount Roses
         amountRoses.color = new Color(1, 1, 1, 0f);

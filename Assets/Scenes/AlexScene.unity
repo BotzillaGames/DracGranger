@@ -4952,6 +4952,7 @@ MonoBehaviour:
   amountRoses: {fileID: 1282539169}
   rosaIcon: {fileID: 504327583}
   gameOverButton: {fileID: 531891756}
+  instructionsButton: {fileID: 404254082}
   newRecord:
   - {fileID: 620529758}
   - {fileID: 945102335}
