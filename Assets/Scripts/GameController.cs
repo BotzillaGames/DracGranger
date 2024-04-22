@@ -16,8 +16,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        timer.ResetTimer();
-        uiController.UpdatePoints(points);
+
     }
 
     public void AddPoints(int numPointsToAdd)
@@ -41,5 +40,11 @@ public class GameController : MonoBehaviour
         uiController.UpdatePoints(points);
         roseSpawner.ResetRoseSpawner();
         enemySpawner.DeleteAllEnemies();
+    }
+
+    public void StartGame(){
+        timer.ResetTimer();
+        uiController.UpdatePoints(points);
+        enemySpawner.StartSpawningEnemies();
     }
 }

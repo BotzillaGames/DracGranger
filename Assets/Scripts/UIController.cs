@@ -16,6 +16,8 @@ public class UIController : MonoBehaviour
 
     public Slider slider;
 
+    public GameObject uiParent;
+
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
     /// any of the Update methods is called the first time.
@@ -56,5 +58,9 @@ public class UIController : MonoBehaviour
         float energyValue = mouseController.GetFireEnergyValue();
 
         slider.value = energyValue/100;
+    }
+
+    public void SetUIVisibility(bool visibility){
+        uiParent.SetActive(visibility);
     }
 }

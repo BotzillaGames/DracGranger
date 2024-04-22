@@ -28,7 +28,6 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SpawnEnemyLoop());
     }
 
     void Update()
@@ -95,5 +94,9 @@ public class EnemySpawner : MonoBehaviour
         {
             spawnedEnemies.Remove(enemyToRemove);
         }
+    }
+
+    public void StartSpawningEnemies(){
+        StartCoroutine(SpawnEnemyLoop());
     }
 }
