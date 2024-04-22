@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.InputSystem.InputAction;
 
 public class TutorialIntroManager : MonoBehaviour
 {
@@ -21,14 +22,19 @@ public class TutorialIntroManager : MonoBehaviour
     }
 
 
-    public void OnClickBackgroundTutorial()
+    public void OnClickBackgroundTutorial(CallbackContext context)
     {
-        step++;
-        ShowTutorialStep(step);
+        if (context.canceled)
+        {
+            step++;
+            ShowTutorialStep(step);
+        }
     }
 
-    public void ShowTutorialStep(int step){
-        switch(step){
+    public void ShowTutorialStep(int step)
+    {
+        switch (step)
+        {
             case 1:
                 step1.color = new Color(1, 1, 1, 1f);
                 break;

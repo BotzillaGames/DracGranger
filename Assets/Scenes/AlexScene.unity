@@ -1284,7 +1284,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1500
+  m_SortingOrder: 2500
   m_TargetDisplay: 0
 --- !u!224 &411084875
 RectTransform:
@@ -6123,6 +6123,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1963310954}
         m_TargetAssemblyTypeName: InputHandler, Assembly-CSharp
         m_MethodName: OnClick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 915554792}
+        m_TargetAssemblyTypeName: TutorialIntroManager, Assembly-CSharp
+        m_MethodName: OnClickBackgroundTutorial
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
