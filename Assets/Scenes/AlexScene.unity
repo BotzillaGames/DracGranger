@@ -256,7 +256,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15839584, y: 0.08048148}
   m_AnchorMax: {x: 0.15839584, y: 0.08048148}
-  m_AnchoredPosition: {x: 269.00003, y: 111}
+  m_AnchoredPosition: {x: 291, y: 109}
   m_SizeDelta: {x: 1200, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &22569425
@@ -653,8 +653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15839584, y: 0.08048148}
   m_AnchorMax: {x: 0.15839584, y: 0.08048148}
-  m_AnchoredPosition: {x: 658, y: 490}
-  m_SizeDelta: {x: 1200, y: 600}
+  m_AnchoredPosition: {x: 709, y: 635}
+  m_SizeDelta: {x: 1069, y: 736}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279227609
 MonoBehaviour:
@@ -3375,11 +3375,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameController: {fileID: 201148211}
-  uIController: {fileID: 1458356023}
+  pointAndTime: {fileID: 694986382}
+  abilites: {fileID: 684541355}
+  help: {fileID: 92553039}
+  drac: {fileID: 1447136821}
   step1: {fileID: 1801670818}
   step2: {fileID: 1723752376}
   instruccions: {fileID: 279227609}
   step3: {fileID: 22569425}
+  background: {fileID: 915554788}
 --- !u!1 &934978314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5839,7 +5843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15839584, y: 0.08048148}
   m_AnchorMax: {x: 0.15839584, y: 0.08048148}
-  m_AnchoredPosition: {x: 269.00003, y: 111}
+  m_AnchoredPosition: {x: 291, y: 112}
   m_SizeDelta: {x: 1200, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1723752376

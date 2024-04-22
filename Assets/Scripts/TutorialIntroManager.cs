@@ -7,17 +7,25 @@ public class TutorialIntroManager : MonoBehaviour
 {
     public GameController gameController;
 
-    public UIController uIController;
+    public GameObject pointAndTime;
 
+    public GameObject abilites;
+
+    public GameObject help;
+    public GameObject drac;
     public UnityEngine.UI.Image step1;
     public UnityEngine.UI.Image step2;
     public UnityEngine.UI.Image instruccions;
     public UnityEngine.UI.Image step3;
 
+    public UnityEngine.UI.Image background;
+
     private int step = 1;
     void Start()
     {
-        uIController.SetUIVisibility(false);
+        drac.SetActive(false);
+        help.SetActive(false);
+        abilites.SetActive(false);
         ShowTutorialStep(step);
     }
 
@@ -37,8 +45,15 @@ public class TutorialIntroManager : MonoBehaviour
         {
             case 1:
                 step1.color = new Color(1, 1, 1, 1f);
+                background.color = new Color(0, 0, 0, 0.1f);
                 break;
             case 2:
+                abilites.SetActive(true);
+                LeanTween.value(background.gameObject, 0.1f, 0.5f, 1).setOnUpdate((val) =>
+                {
+                    background.color = new Color(0, 0, 0, val);
+                });
+
                 LeanTween.value(step1.gameObject, 1, 0, 1).setOnUpdate((val) =>
                 {
                     step1.color = new Color(1, 1, 1, val);
@@ -75,8 +90,11 @@ public class TutorialIntroManager : MonoBehaviour
                 {
                     step3.color = new Color(1, 1, 1, val);
                 });
-                uIController.SetUIVisibility(true);
+                background.color = new Color(0, 0, 0, 0);
                 gameController.StartGame();
+                drac.SetActive(true);
+                help.SetActive(true);
+                abilites.SetActive(true);
                 break;
             default:
                 break;
