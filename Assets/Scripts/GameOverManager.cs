@@ -88,7 +88,7 @@ public class GameOverManager : MonoBehaviour
         });
 
         //Amount Roses
-        amountRoses.text = scoreActual.ToString();
+        amountRoses.text = Mathf.Max(highScore, scoreActual).ToString();
         LeanTween.value(amountRoses.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             amountRoses.color = new Color(1, 1, 1, val);

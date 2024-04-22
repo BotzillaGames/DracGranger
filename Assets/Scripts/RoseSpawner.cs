@@ -29,6 +29,7 @@ public class RoseSpawner : MonoBehaviour
         {
             SpawnRose();
         }
+        Invoke("Lose", 30);
     }
 
     private void Lose()
