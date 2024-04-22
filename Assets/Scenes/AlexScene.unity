@@ -4313,7 +4313,6 @@ GameObject:
   - component: {fileID: 1453272471}
   - component: {fileID: 1453272470}
   - component: {fileID: 1453272469}
-  - component: {fileID: 1453272468}
   m_Layer: 5
   m_Name: Instruccions
   m_TagString: Untagged
@@ -4321,23 +4320,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1453272468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453272467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 943c2c4ad7865432b861e5183cecada6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 0}
-  pointsText: {fileID: 0}
-  timer: {fileID: 201148212}
-  mouseController: {fileID: 675380881}
-  slider: {fileID: 0}
 --- !u!114 &1453272469
 MonoBehaviour:
   m_ObjectHideFlags: 0
