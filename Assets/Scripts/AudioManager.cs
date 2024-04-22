@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip fire;
 
+    public AudioMixerGroup master;
+
     public AudioClip breakRose;
 
     public AudioClip[] audios;
@@ -16,6 +19,7 @@ public class AudioManager : MonoBehaviour
     public void GenerateAudio(AudioType audioType)
     {
         AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
 
         newAudioSource.clip = audios[(int)audioType];
         newAudioSource.Play();
@@ -26,6 +30,7 @@ public class AudioManager : MonoBehaviour
     public void PlayFire()
     {
         AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
 
         newAudioSource.clip = audios[(int)AudioType.Fire];
         newAudioSource.Play();
@@ -36,6 +41,7 @@ public class AudioManager : MonoBehaviour
     public void BreakRose()
     {
         AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
 
         newAudioSource.clip = breakRose;
         newAudioSource.Play();
@@ -45,6 +51,7 @@ public class AudioManager : MonoBehaviour
     private IEnumerator BurningSound()
     {
         AudioSource newAudioSource = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+        newAudioSource.outputAudioMixerGroup = master;
 
         newAudioSource.clip = fire;
         newAudioSource.Play();

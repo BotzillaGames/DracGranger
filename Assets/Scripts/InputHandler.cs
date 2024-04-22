@@ -48,5 +48,17 @@ public class InputHandler : MonoBehaviour
         {
             uiButton.OnClick();
         }
+
+        ReplayButton gameOver = rayHit.collider.GetComponent<ReplayButton>();
+        if (gameOver)
+        {
+            gameOver.OnClickReplay();
+        }
+
+        InstruccionsButton instruccions = rayHit.collider.GetComponent<InstruccionsButton>();
+        if (instruccions)
+        {
+            instruccions.OnClickInstructions();
+        }
     }
 }

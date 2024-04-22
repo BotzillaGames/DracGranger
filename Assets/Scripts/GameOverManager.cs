@@ -8,7 +8,7 @@ public class GameOverManager : MonoBehaviour
     public bool isFinished = false;
 
     private int highScore = 0;
-     private string highScoreKey = "HighScore";
+    private string highScoreKey = "HighScore";
 
     private int scoreActual;
 
@@ -45,7 +45,8 @@ public class GameOverManager : MonoBehaviour
     public GameController gameController;
 
 
-    public void Start(){
+    public void Start()
+    {
         LoadHighScore();
 
     }
@@ -85,7 +86,7 @@ public class GameOverManager : MonoBehaviour
         {
             instructionsButton.color = new Color(1, 1, 1, val);
         });
-        
+
         //Amount Roses
         amountRoses.text = scoreActual.ToString();
         LeanTween.value(amountRoses.gameObject, 0, 1, 1).setOnUpdate((val) =>
@@ -97,10 +98,15 @@ public class GameOverManager : MonoBehaviour
         LeanTween.value(rosaIcon.gameObject, 0, 1, 1).setOnUpdate((val) =>
         {
             rosaIcon.color = new Color(1, 1, 1, val);
+        }).setOnComplete(() =>
+        {
+            Time.timeScale = 0;
         });
 
-        if(scoreActual > highScore){
-            for(int i = 0; i < newRecord.Length; i++){
+        if (scoreActual > highScore)
+        {
+            for (int i = 0; i < newRecord.Length; i++)
+            {
                 int index = i;
                 LeanTween.value(newRecord[index].gameObject, 0, 1, 1).setOnUpdate((val) =>
                 {
@@ -112,11 +118,14 @@ public class GameOverManager : MonoBehaviour
             {
                 newRecordText.color = new Color(0, 0, 0, val);
             });
-            
+
             highScore = scoreActual;
             SaveHighScore();
-        } else {
-            for(int i = 0; i < millorPuntuacio.Length; i++){
+        }
+        else
+        {
+            for (int i = 0; i < millorPuntuacio.Length; i++)
+            {
                 int index = i;
                 LeanTween.value(millorPuntuacio[index].gameObject, 0, 1, 1).setOnUpdate((val) =>
                 {
@@ -146,7 +155,8 @@ public class GameOverManager : MonoBehaviour
         }
     }
 
-    public void PlayAgain(){
+    public void PlayAgain()
+    {
         Debug.Log("Play Again");
 
         parent.SetActive(false);
@@ -167,20 +177,22 @@ public class GameOverManager : MonoBehaviour
 
         //Instructions button
         instructionsButton.color = new Color(1, 1, 1, 0f);
-        
-        
+
+
         //Amount Roses
         amountRoses.color = new Color(1, 1, 1, 0f);
 
         //Rosa Icon
         rosaIcon.color = new Color(1, 1, 1, 0f);
 
-        for(int i = 0; i < newRecord.Length; i++){
+        for (int i = 0; i < newRecord.Length; i++)
+        {
             newRecord[i].color = new Color(1, 1, 1, 0f);
         }
         newRecordText.color = new Color(0, 0, 0, 0f);
 
-        for(int i = 0; i < millorPuntuacio.Length; i++){
+        for (int i = 0; i < millorPuntuacio.Length; i++)
+        {
             millorPuntuacio[i].color = new Color(1, 1, 1, 0f);
         }
 
@@ -188,6 +200,7 @@ public class GameOverManager : MonoBehaviour
 
         gameController.ResetGame();
         isFinished = false;
+        Time.timeScale = 1;
     }
 
 }

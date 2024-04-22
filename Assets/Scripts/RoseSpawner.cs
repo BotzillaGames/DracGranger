@@ -31,6 +31,11 @@ public class RoseSpawner : MonoBehaviour
         }
     }
 
+    private void Lose()
+    {
+        gameOver.FinishGame();
+    }
+
     /// <summary>
     /// Update is called every frame, if the MonoBehaviour is enabled.
     /// </summary>
@@ -104,9 +109,10 @@ public class RoseSpawner : MonoBehaviour
         }
     }
 
-    public void ResetRoseSpawner(){
+    public void ResetRoseSpawner()
+    {
         CleanAndDestroyRoses();
-        
+
         grid = transform.parent.GetComponent<Grid>();
         for (int i = 0; i < LIFESTART; i++)
         {
